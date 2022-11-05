@@ -11,6 +11,8 @@
 		DB0BBDE12915F2FB00E4683C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0BBDE02915F2FB00E4683C /* ContentView.swift */; };
 		DB0BBDE32915F2FD00E4683C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0BBDE22915F2FD00E4683C /* Assets.xcassets */; };
 		DB0BBDE62915F2FD00E4683C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0BBDE52915F2FD00E4683C /* Preview Assets.xcassets */; };
+		DB6BDECC291608D900B89418 /* SetupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BDECB291608D900B89418 /* SetupData.swift */; };
+		DB6BDECF29160BCF00B89418 /* LargeBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BDECE29160BCF00B89418 /* LargeBannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DB0BBDE02915F2FB00E4683C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB0BBDE22915F2FD00E4683C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB0BBDE52915F2FD00E4683C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB6BDECB291608D900B89418 /* SetupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupData.swift; sourceTree = "<group>"; };
+		DB6BDECE29160BCF00B89418 /* LargeBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeBannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		DB0BBDDD2915F2FB00E4683C /* HalalFoodFinder */ = {
 			isa = PBXGroup;
 			children = (
+				DB6BDECA291604AD00B89418 /* Data */,
+				DB6BDEC9291604A300B89418 /* Specific View */,
+				DB6BDEC82916048800B89418 /* Whole View */,
 				DB0BBDDE2915F2FB00E4683C /* HalalFoodFinderApp.swift */,
-				DB0BBDE02915F2FB00E4683C /* ContentView.swift */,
 				DB0BBDE22915F2FD00E4683C /* Assets.xcassets */,
 				DB0BBDE42915F2FD00E4683C /* Preview Content */,
 			);
@@ -65,6 +71,38 @@
 				DB0BBDE52915F2FD00E4683C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB6BDEC82916048800B89418 /* Whole View */ = {
+			isa = PBXGroup;
+			children = (
+				DB0BBDE02915F2FB00E4683C /* ContentView.swift */,
+				DB6BDECD29160AF300B89418 /* New Group */,
+			);
+			path = "Whole View";
+			sourceTree = "<group>";
+		};
+		DB6BDEC9291604A300B89418 /* Specific View */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BDECE29160BCF00B89418 /* LargeBannerView.swift */,
+			);
+			path = "Specific View";
+			sourceTree = "<group>";
+		};
+		DB6BDECA291604AD00B89418 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BDECB291608D900B89418 /* SetupData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DB6BDECD29160AF300B89418 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6BDECF29160BCF00B89418 /* LargeBannerView.swift in Sources */,
 				DB0BBDE12915F2FB00E4683C /* ContentView.swift in Sources */,
 				DB0BBDDF2915F2FB00E4683C /* HalalFoodFinderApp.swift in Sources */,
+				DB6BDECC291608D900B89418 /* SetupData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
