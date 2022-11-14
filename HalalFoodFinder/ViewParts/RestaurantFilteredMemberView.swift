@@ -17,12 +17,15 @@ struct RestaurantFilteredMemberView: View {
         HStack {
             VStack(alignment: .leading) {
                 HStack {
-                    Text(name)
+                    Text(name.capitalized)
                         .font(.headline)
+                        .foregroundColor(.black)
+                    
                     Spacer()
                 }
-                Text("\(roadName), \(postalCode)")
+                Text("\(roadName), \(postalCode)".capitalized)
                     .padding(.top, 2)
+                    .foregroundColor(.black)
     
             }
             
@@ -32,6 +35,8 @@ struct RestaurantFilteredMemberView: View {
         }
         .frame(maxWidth: .infinity)
         .padding(.horizontal, 20)
+        .multilineTextAlignment(.leading)
+        
         
     }
 }

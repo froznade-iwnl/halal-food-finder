@@ -19,14 +19,11 @@ struct LargeBannerView: View {
         VStack(alignment: .leading){
             HStack{
                 
-//                Text("Today's recommendation".capitalized)
-//                    .font(.headline)
-                    
-                
-                Spacer()
                 
                 Text("#\(tag)")
                     .foregroundColor(.black)
+                
+                Spacer()
                 
                 
             }
@@ -36,6 +33,7 @@ struct LargeBannerView: View {
             HStack(alignment: .bottom) {
                 Text(name)
                     .font(.body)
+                    .multilineTextAlignment(.leading)
                 .bold()
                 
             }

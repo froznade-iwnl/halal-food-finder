@@ -51,7 +51,13 @@ struct RestaurantDetailsView: View {
                         .font(.headline)
                         .padding(.top, 20)
                     
+                    MapView(address: "\(data.name),\(data.buildingName), \(data.roadNumber) \(data.roadName), \(data.postalCode), Singapore")
+                        .frame(height: 200)
                     
+                    Text("\(data.roadName), \(data.postalCode)".capitalized)
+                        .font(.caption)
+                        .foregroundColor(.blue)
+                        .underline()
                     
                 }
                 .padding(20)

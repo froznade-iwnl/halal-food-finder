@@ -52,8 +52,12 @@ struct HomeView: View {
                             
                             //Large Banner View
                             
-                            LargeBannerView(tag: data[0].tags, name: data[0].name, distance: 50, address: data[0].roadName)
-                                .padding(.bottom, 20)
+                            NavigationLink {
+                                RestaurantDetailsView(data: data[0])
+                            } label: {
+                                LargeBannerView(tag: data[0].tags, name: data[0].name, distance: 50, address: data[0].roadName)
+                                    .padding(.bottom, 20)
+                            }
                             
                             //Specific Cuisines
                             
@@ -64,10 +68,10 @@ struct HomeView: View {
                                 
                                 Spacer()
                                 
-                                Button {
-                                    print("Click!")
+                                NavigationLink {
+                                    AllCuisinesView(data: data)
                                 } label: {
-                                    Text("See All")
+                                    Text("More")
                                         .padding(.horizontal)
                                         .foregroundColor(.bgColor)
                                         .background {
@@ -82,7 +86,7 @@ struct HomeView: View {
                             //Cuisines Button
                             ScrollView(.horizontal){
                                 HStack {
-                                    ForEach(cuisines, id: \.self){ cuisine in
+                                    ForEach(cuisines.prefix(upTo: 5), id: \.self){ cuisine in
                                         
                                         NavigationLink {
                                             CuisineView(datas: data, tag: cuisine)
@@ -104,8 +108,8 @@ struct HomeView: View {
                                 
                                 Spacer()
                                 
-                                Button {
-                                    print("Click!")
+                                NavigationLink {
+                                    AllRestaurantsView(datas: data)
                                 } label: {
                                     Text("See All")
                                         .padding(.horizontal)
@@ -124,11 +128,19 @@ struct HomeView: View {
                                     
                                     if(data.count >= 5) {
                                         ForEach(data.prefix(upTo: 5)) { datum in
-                                            NearMeView(roadname: datum.roadName, name: datum.name, tag: datum.tags)
+                                            NavigationLink {
+                                                RestaurantDetailsView(data: datum)
+                                            } label: {
+                                                NearMeView(roadname: datum.roadName, name: datum.name, tag: datum.tags)
+                                            }
                                         }
                                     }else{
                                         ForEach(data) { datum in
-                                            NearMeView(roadname: datum.roadName, name: datum.name, tag: datum.tags)
+                                            NavigationLink {
+                                                RestaurantDetailsView(data: datum)
+                                            } label: {
+                                                NearMeView(roadname: datum.roadName, name: datum.name, tag: datum.tags)
+                                            }
                                         }
                                     }
                                     
@@ -143,8 +155,6 @@ struct HomeView: View {
                         
                     }
                 }
-            }.onAppear{
-                self.data.shuffle()
             }
         }
     }

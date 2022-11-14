@@ -39,10 +39,15 @@ struct CuisineView: View {
                 
                 ScrollView {
                     ForEach(datas) { data in
-                        VStack {
-                            RestaurantFilteredMemberView(name: data.name, postalCode: data.postalCode, roadName: data.roadName)
-                            
-                            Divider()
+                        
+                        NavigationLink {
+                            RestaurantDetailsView(data: data)
+                        } label: {
+                            VStack {
+                                RestaurantFilteredMemberView(name: data.name, postalCode: data.postalCode, roadName: data.roadName)
+                                
+                                Divider()
+                            }
                         }
                     }
                 }
@@ -54,6 +59,8 @@ struct CuisineView: View {
             })
         }
         .padding(20)
+        .navigationTitle(tag)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

@@ -36,6 +36,7 @@ class restaurantDataGrabber: ObservableObject {
             let decoder = JSONDecoder()
             let data = try? Data(contentsOf: url)
             self.restaurants = try! decoder.decode([restaurant].self, from: data!)
+            self.restaurants.shuffle()
             print(self.restaurants)
         }catch{
             print(error)

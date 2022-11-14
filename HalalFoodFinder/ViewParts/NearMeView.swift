@@ -25,10 +25,12 @@ struct NearMeView: View {
             
             Spacer()
             
-            Text(name)
+            Text(name.capitalized)
                 .font(.headline)
+                .foregroundColor(.black)
+                .multilineTextAlignment(.leading)
             
-            Text(roadname)
+            Text(roadname.capitalized)
                 .font(.caption)
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.leading)

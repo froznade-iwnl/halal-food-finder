@@ -21,6 +21,10 @@
 		DBDBAF50291F46A200B44C88 /* RestaurantFilteredMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDBAF4F291F46A200B44C88 /* RestaurantFilteredMemberView.swift */; };
 		DBDBAF52291F485500B44C88 /* CuisineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDBAF51291F485500B44C88 /* CuisineView.swift */; };
 		DBE14BFD2921E0C100B8D722 /* RestaurantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE14BFC2921E0C100B8D722 /* RestaurantDetailsView.swift */; };
+		DBE14BFF2921E7CF00B8D722 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE14BFE2921E7CF00B8D722 /* MapView.swift */; };
+		DBE14C022921F6CD00B8D722 /* MapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE14C012921F6CD00B8D722 /* MapData.swift */; };
+		DBE14C04292204FF00B8D722 /* AllRestaurantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE14C03292204FF00B8D722 /* AllRestaurantsView.swift */; };
+		DBE14C06292209FA00B8D722 /* AllCuisinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE14C05292209FA00B8D722 /* AllCuisinesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,11 @@
 		DBDBAF4F291F46A200B44C88 /* RestaurantFilteredMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFilteredMemberView.swift; sourceTree = "<group>"; };
 		DBDBAF51291F485500B44C88 /* CuisineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineView.swift; sourceTree = "<group>"; };
 		DBE14BFC2921E0C100B8D722 /* RestaurantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsView.swift; sourceTree = "<group>"; };
+		DBE14BFE2921E7CF00B8D722 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DBE14C002921EC0800B8D722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DBE14C012921F6CD00B8D722 /* MapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapData.swift; sourceTree = "<group>"; };
+		DBE14C03292204FF00B8D722 /* AllRestaurantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRestaurantsView.swift; sourceTree = "<group>"; };
+		DBE14C05292209FA00B8D722 /* AllCuisinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCuisinesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +80,7 @@
 		DB0BBDDD2915F2FB00E4683C /* HalalFoodFinder */ = {
 			isa = PBXGroup;
 			children = (
+				DBE14C002921EC0800B8D722 /* Info.plist */,
 				DBDBAF4D291F3BD500B44C88 /* data.json */,
 				DB6BDECA291604AD00B89418 /* Data */,
 				DB6BDEC9291604A300B89418 /* ViewParts */,
@@ -93,10 +103,12 @@
 		DB6BDEC82916048800B89418 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DBE14C05292209FA00B8D722 /* AllCuisinesView.swift */,
 				DB0BBDE02915F2FB00E4683C /* ContentView.swift */,
 				DBDBAF49291F328D00B44C88 /* HomeView.swift */,
 				DBE14BFC2921E0C100B8D722 /* RestaurantDetailsView.swift */,
 				DBDBAF51291F485500B44C88 /* CuisineView.swift */,
+				DBE14C03292204FF00B8D722 /* AllRestaurantsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,6 +116,7 @@
 		DB6BDEC9291604A300B89418 /* ViewParts */ = {
 			isa = PBXGroup;
 			children = (
+				DBE14BFE2921E7CF00B8D722 /* MapView.swift */,
 				DB6BDECE29160BCF00B89418 /* LargeBannerView.swift */,
 				DB6BDED02916119A00B89418 /* CuisineSelectView.swift */,
 				DB6BDED229161CE900B89418 /* NearMeView.swift */,
@@ -117,6 +130,7 @@
 			children = (
 				DB6BDECB291608D900B89418 /* SetupData.swift */,
 				DBDBAF4B291F3AF800B44C88 /* RestaurantData.swift */,
+				DBE14C012921F6CD00B8D722 /* MapData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -193,14 +207,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6BDECF29160BCF00B89418 /* LargeBannerView.swift in Sources */,
+				DBE14BFF2921E7CF00B8D722 /* MapView.swift in Sources */,
 				DBE14BFD2921E0C100B8D722 /* RestaurantDetailsView.swift in Sources */,
 				DBDBAF4A291F328D00B44C88 /* HomeView.swift in Sources */,
+				DBE14C022921F6CD00B8D722 /* MapData.swift in Sources */,
 				DBDBAF4C291F3AF800B44C88 /* RestaurantData.swift in Sources */,
 				DB0BBDE12915F2FB00E4683C /* ContentView.swift in Sources */,
 				DBDBAF50291F46A200B44C88 /* RestaurantFilteredMemberView.swift in Sources */,
+				DBE14C06292209FA00B8D722 /* AllCuisinesView.swift in Sources */,
 				DB6BDED329161CE900B89418 /* NearMeView.swift in Sources */,
 				DB6BDED12916119A00B89418 /* CuisineSelectView.swift in Sources */,
 				DBDBAF52291F485500B44C88 /* CuisineView.swift in Sources */,
+				DBE14C04292204FF00B8D722 /* AllRestaurantsView.swift in Sources */,
 				DB0BBDDF2915F2FB00E4683C /* HalalFoodFinderApp.swift in Sources */,
 				DB6BDECC291608D900B89418 /* SetupData.swift in Sources */,
 			);
@@ -333,6 +351,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HalalFoodFinder/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HalalFoodFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -361,6 +380,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HalalFoodFinder/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HalalFoodFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
