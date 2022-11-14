@@ -1,0 +1,191 @@
+[
+ {
+   "name": "4 Fingers Crispy Chicken",
+   "roadNumber": 65,
+   "roadName": "AIRPORT BOULEVARD",
+   "unitNumber": "B2-02",
+   "buildingName": "CHANGI AIRPORT TERMINAL 3",
+   "postalCode": 819663,
+   "tags": "western"
+ },
+ {
+   "name": "4 Fingers Crispy Chicken",
+   "roadNumber": 80,
+   "roadName": "Airport Boulevard",
+   "unitNumber": "03-47",
+   "buildingName": "Changi Airport Terminal 1",
+   "postalCode": 819642,
+   "tags": "western"
+ },
+ {
+   "name": "4 Fingers Crispy Chicken",
+   "roadNumber": 2,
+   "roadName": "ORCHARD TURN",
+   "unitNumber": "B4-06/06A",
+   "buildingName": "ION ORCHARD",
+   "postalCode": 238801,
+   "tags": "western"
+ },
+ {
+   "name": "4 Fingers Crispy Chicken",
+   "roadNumber": 68,
+   "roadName": "ORCHARD ROAD",
+   "unitNumber": "B1-07",
+   "buildingName": "PLAZA SINGAPURA",
+   "postalCode": 238839,
+   "tags": "western"
+ },
+ {
+   "name": "4 Fingers Crispy Chicken",
+   "roadNumber": 1,
+   "roadName": "WOODLANDS SQUARE",
+   "unitNumber": "01-38/39",
+   "buildingName": "CAUSEWAY POINT",
+   "postalCode": 738099,
+   "tags": "western"
+ },
+ {
+   "name": "4 Fingers Crispy Chicken",
+   "roadNumber": 10,
+   "roadName": "Tampines Central 1 #01 39/40/K3/K4",
+   "unitNumber": "-",
+   "buildingName": "Tampines 1",
+   "postalCode": 529536,
+   "tags": "western"
+ },
+ {
+   "name": "4 Fingers Crispy Chicken",
+   "roadNumber": 302,
+   "roadName": "Tiong Bahru Road",
+   "unitNumber": "01-105",
+   "buildingName": "Tiong Bahru Plaza",
+   "postalCode": 168732,
+   "tags": "western"
+ },
+ {
+   "name": "4 Fingers Crispy Chicken",
+   "roadNumber": 1,
+   "roadName": "JURONG WEST CENTRAL 2",
+   "unitNumber": "03-34",
+   "buildingName": "JURONG POINT SHOPPING CENTRE",
+   "postalCode": 648886,
+   "tags": "western"
+ },
+ {
+   "name": "498 Yong Tau Foo (S7) @ 7 Stars",
+   "roadNumber": 498,
+   "roadName": "JURONG WEST STREET 41",
+   "unitNumber": "01-426",
+   "buildingName": "-",
+   "postalCode": 640498,
+   "tags": "chinese"
+ },
+ {
+   "name": "7 Star Restaurant (Indian/Malay Food)",
+   "roadNumber": 768,
+   "roadName": "UPPER SERANGOON ROAD",
+   "unitNumber": "02-03",
+   "buildingName": "-",
+   "postalCode": 534636,
+   "tags": "indian"
+ },
+ {
+   "name": "A Poke Theory",
+   "roadNumber": 27,
+   "roadName": "Boon Tat Street",
+   "unitNumber": "-",
+   "buildingName": "-",
+   "postalCode": 69623,
+   "tags": "japanese"
+ },
+ {
+   "name": "A Poke Theory",
+   "roadNumber": 1,
+   "roadName": "Lower Kent Ridge Road",
+   "unitNumber": "02-12",
+   "buildingName": "One@Kent Ridge",
+   "postalCode": 119082,
+   "tags": "japanese"
+ },
+ {
+   "name": "A Poke Theory",
+   "roadNumber": null,
+   "roadName": "5 Straits View",
+   "unitNumber": "B2-52",
+   "buildingName": "Marina One, The heart",
+   "postalCode": 18935,
+   "tags": "japanese"
+ },
+ {
+   "name": "A Poke Theory",
+   "roadNumber": 7,
+   "roadName": "Fraser Street",
+   "unitNumber": "01-36/37",
+   "buildingName": "Duo Galleria",
+   "postalCode": 189356,
+   "tags": "japanese"
+ },
+ {
+   "name": "A SPOONFUL OF SUGAR",
+   "roadNumber": 4,
+   "roadName": "CHANGI VILLAGE ROAD",
+   "unitNumber": "01-2072",
+   "buildingName": "-",
+   "postalCode": 500004,
+   "tags": "dessert"
+ },
+ {
+   "name": "A1 AZEE WESTERN FOOD (S7) @ SOON HONG EATING HOUSE (A'POSH BIZHUB)",
+   "roadNumber": 1,
+   "roadName": "Yishun Industrial Street 1",
+   "unitNumber": "01-12",
+   "buildingName": "A'posh Bizhub",
+   "postalCode": 768160,
+   "tags": "western"
+ },
+ {
+   "name": "Adam Chicken",
+   "roadNumber": 503,
+   "roadName": "WEST COAST DRIVE",
+   "unitNumber": "01-28",
+   "buildingName": "Ayer Rajah Food Centre",
+   "postalCode": 120503,
+   "tags": "western"
+ },
+ {
+   "name": "AH HUAT",
+   "roadNumber": 2,
+   "roadName": "BUKIT BATOK WEST AVENUE 7",
+   "unitNumber": "01-09C",
+   "buildingName": "HOMETEAM NS",
+   "postalCode": 659003,
+   "tags": "drinks"
+ },
+ {
+   "name": "Ah Meng Bistro",
+   "roadNumber": 80,
+   "roadName": "Mandai Lake Road",
+   "unitNumber": "-",
+   "buildingName": "Singapore Zoological Restaurant",
+   "postalCode": 729826,
+   "tags": "local"
+ },
+ {
+   "name": "Ah Meng Kitchen",
+   "roadNumber": 80,
+   "roadName": "Mandai Lake Road",
+   "unitNumber": "-",
+   "buildingName": "SINGAPORE ZOOLOGICAL GARDEN",
+   "postalCode": 729826,
+   "tags": "local"
+ },
+ {
+   "name": "Ah Meng Restaurant",
+   "roadNumber": 80,
+   "roadName": "MANDAI LAKE ROAD",
+   "unitNumber": "-",
+   "buildingName": "SINGAPORE ZOOLOGICAL GARDEN",
+   "postalCode": 729826,
+   "tags": "local"
+ }
+]

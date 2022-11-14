@@ -13,6 +13,14 @@
 		DB0BBDE62915F2FD00E4683C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0BBDE52915F2FD00E4683C /* Preview Assets.xcassets */; };
 		DB6BDECC291608D900B89418 /* SetupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BDECB291608D900B89418 /* SetupData.swift */; };
 		DB6BDECF29160BCF00B89418 /* LargeBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BDECE29160BCF00B89418 /* LargeBannerView.swift */; };
+		DB6BDED12916119A00B89418 /* CuisineSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BDED02916119A00B89418 /* CuisineSelectView.swift */; };
+		DB6BDED329161CE900B89418 /* NearMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BDED229161CE900B89418 /* NearMeView.swift */; };
+		DBDBAF4A291F328D00B44C88 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDBAF49291F328D00B44C88 /* HomeView.swift */; };
+		DBDBAF4C291F3AF800B44C88 /* RestaurantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDBAF4B291F3AF800B44C88 /* RestaurantData.swift */; };
+		DBDBAF4E291F3BD500B44C88 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DBDBAF4D291F3BD500B44C88 /* data.json */; };
+		DBDBAF50291F46A200B44C88 /* RestaurantFilteredMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDBAF4F291F46A200B44C88 /* RestaurantFilteredMemberView.swift */; };
+		DBDBAF52291F485500B44C88 /* CuisineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDBAF51291F485500B44C88 /* CuisineView.swift */; };
+		DBE14BFD2921E0C100B8D722 /* RestaurantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE14BFC2921E0C100B8D722 /* RestaurantDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +31,14 @@
 		DB0BBDE52915F2FD00E4683C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB6BDECB291608D900B89418 /* SetupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupData.swift; sourceTree = "<group>"; };
 		DB6BDECE29160BCF00B89418 /* LargeBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeBannerView.swift; sourceTree = "<group>"; };
+		DB6BDED02916119A00B89418 /* CuisineSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineSelectView.swift; sourceTree = "<group>"; };
+		DB6BDED229161CE900B89418 /* NearMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeView.swift; sourceTree = "<group>"; };
+		DBDBAF49291F328D00B44C88 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DBDBAF4B291F3AF800B44C88 /* RestaurantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantData.swift; sourceTree = "<group>"; };
+		DBDBAF4D291F3BD500B44C88 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DBDBAF4F291F46A200B44C88 /* RestaurantFilteredMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFilteredMemberView.swift; sourceTree = "<group>"; };
+		DBDBAF51291F485500B44C88 /* CuisineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineView.swift; sourceTree = "<group>"; };
+		DBE14BFC2921E0C100B8D722 /* RestaurantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +71,10 @@
 		DB0BBDDD2915F2FB00E4683C /* HalalFoodFinder */ = {
 			isa = PBXGroup;
 			children = (
+				DBDBAF4D291F3BD500B44C88 /* data.json */,
 				DB6BDECA291604AD00B89418 /* Data */,
-				DB6BDEC9291604A300B89418 /* Specific View */,
-				DB6BDEC82916048800B89418 /* Whole View */,
+				DB6BDEC9291604A300B89418 /* ViewParts */,
+				DB6BDEC82916048800B89418 /* Views */,
 				DB0BBDDE2915F2FB00E4683C /* HalalFoodFinderApp.swift */,
 				DB0BBDE22915F2FD00E4683C /* Assets.xcassets */,
 				DB0BBDE42915F2FD00E4683C /* Preview Content */,
@@ -73,36 +90,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DB6BDEC82916048800B89418 /* Whole View */ = {
+		DB6BDEC82916048800B89418 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				DB0BBDE02915F2FB00E4683C /* ContentView.swift */,
-				DB6BDECD29160AF300B89418 /* New Group */,
+				DBDBAF49291F328D00B44C88 /* HomeView.swift */,
+				DBE14BFC2921E0C100B8D722 /* RestaurantDetailsView.swift */,
+				DBDBAF51291F485500B44C88 /* CuisineView.swift */,
 			);
-			path = "Whole View";
+			path = Views;
 			sourceTree = "<group>";
 		};
-		DB6BDEC9291604A300B89418 /* Specific View */ = {
+		DB6BDEC9291604A300B89418 /* ViewParts */ = {
 			isa = PBXGroup;
 			children = (
 				DB6BDECE29160BCF00B89418 /* LargeBannerView.swift */,
+				DB6BDED02916119A00B89418 /* CuisineSelectView.swift */,
+				DB6BDED229161CE900B89418 /* NearMeView.swift */,
+				DBDBAF4F291F46A200B44C88 /* RestaurantFilteredMemberView.swift */,
 			);
-			path = "Specific View";
+			path = ViewParts;
 			sourceTree = "<group>";
 		};
 		DB6BDECA291604AD00B89418 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				DB6BDECB291608D900B89418 /* SetupData.swift */,
+				DBDBAF4B291F3AF800B44C88 /* RestaurantData.swift */,
 			);
 			path = Data;
-			sourceTree = "<group>";
-		};
-		DB6BDECD29160AF300B89418 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB0BBDE62915F2FD00E4683C /* Preview Assets.xcassets in Resources */,
+				DBDBAF4E291F3BD500B44C88 /* data.json in Resources */,
 				DB0BBDE32915F2FD00E4683C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,7 +193,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6BDECF29160BCF00B89418 /* LargeBannerView.swift in Sources */,
+				DBE14BFD2921E0C100B8D722 /* RestaurantDetailsView.swift in Sources */,
+				DBDBAF4A291F328D00B44C88 /* HomeView.swift in Sources */,
+				DBDBAF4C291F3AF800B44C88 /* RestaurantData.swift in Sources */,
 				DB0BBDE12915F2FB00E4683C /* ContentView.swift in Sources */,
+				DBDBAF50291F46A200B44C88 /* RestaurantFilteredMemberView.swift in Sources */,
+				DB6BDED329161CE900B89418 /* NearMeView.swift in Sources */,
+				DB6BDED12916119A00B89418 /* CuisineSelectView.swift in Sources */,
+				DBDBAF52291F485500B44C88 /* CuisineView.swift in Sources */,
 				DB0BBDDF2915F2FB00E4683C /* HalalFoodFinderApp.swift in Sources */,
 				DB6BDECC291608D900B89418 /* SetupData.swift in Sources */,
 			);

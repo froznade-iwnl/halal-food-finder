@@ -11,3 +11,13 @@ import SwiftUI
 extension Color {
     static let bgColor = Color("BGColor")
 }
+
+public let cuisines = [
+    "Western",
+    "Thai",
+    "Chinese",
+    "Fusion",
+    "Dessert",
+    "Heavy Meal",
+    "Indian"
+]

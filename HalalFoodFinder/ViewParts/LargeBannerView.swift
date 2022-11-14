@@ -18,10 +18,17 @@ struct LargeBannerView: View {
         
         VStack(alignment: .leading){
             HStack{
+                
+//                Text("Today's recommendation".capitalized)
+//                    .font(.headline)
+                    
+                
+                Spacer()
+                
                 Text("#\(tag)")
                     .foregroundColor(.black)
                 
-                Spacer()
+                
             }
             
             Spacer()
@@ -30,9 +37,6 @@ struct LargeBannerView: View {
                 Text(name)
                     .font(.body)
                 .bold()
-                
-                Text("\(distance)m")
-                    .font(.caption)
                 
             }
             
@@ -52,6 +56,8 @@ struct LargeBannerView: View {
         .background {
             RoundedRectangle(cornerRadius: 12)
                 .foregroundColor(.white)
+            RoundedRectangle(cornerRadius: 12)
+                .stroke(Color.gray, lineWidth: 1)
         }
         
     }
