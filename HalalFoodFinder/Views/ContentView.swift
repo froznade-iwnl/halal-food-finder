@@ -18,11 +18,18 @@ struct ContentView: View {
                 .tabItem {
                     Label("Home", systemImage: "fork.knife.circle")
                 }
+            
+            NearestRestaurantView()
+                .tabItem {
+                    Label("Near me", systemImage: "map.circle")
+                }
+            
         }
         .accentColor(.bgColor)
         .onAppear {
             restaurants.grabData()
         }
+        
         
     }
     
