@@ -12,6 +12,7 @@ struct MapView: View {
     
     @State var address: String
     @StateObject private var mapAPI = MapAPI()
+        
 
     
     var body: some View {

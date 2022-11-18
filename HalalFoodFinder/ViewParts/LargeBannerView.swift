@@ -20,7 +20,7 @@ struct LargeBannerView: View {
             HStack{
                 
                 
-                Text("#\(tag)")
+                Text("#\((tag == "" ? "MainCourse" : tag))")
                     .foregroundColor(.black)
                 
                 Spacer()
@@ -45,6 +45,7 @@ struct LargeBannerView: View {
                 Text(address.capitalized)
                 
             }
+            .padding(.top, 2)
                 
         }
         .foregroundColor(.black)

@@ -24,7 +24,7 @@ struct AllRestaurantsView: View {
                             NavigationLink {
                                 RestaurantDetailsView(data: data)
                             } label: {
-                                RestaurantFilteredMemberView(name: data.name, postalCode: data.postalCode, roadName: data.roadName)
+                                RestaurantFilteredMemberView(name: data.name, postalCode: data.postalCode, roadName: data.roadName, data: data)
                             }
                             Divider()
                                 .padding(.top, 2)
@@ -40,7 +40,7 @@ struct AllRestaurantsView: View {
                     NavigationLink {
                         RestaurantDetailsView(data: data)
                     }label:{
-                        RestaurantFilteredMemberView(name: data.name, postalCode: data.postalCode, roadName: data.roadName)
+                        RestaurantFilteredMemberView(name: data.name, postalCode: data.postalCode, roadName: data.roadName, data: data)
                     }
                 }
             }
@@ -56,6 +56,6 @@ struct AllRestaurantsView: View {
 
 struct AllRestaurantsView_Previews: PreviewProvider {
     static var previews: some View {
-        AllRestaurantsView(datas: [restaurant(name: "7 Star Restaurant (Indian/Malay Food)", roadNumber: Optional(768), roadName: "UPPER SERANGOON ROAD", unitNumber: "02-03", buildingName: "-", postalCode: 534636, tags: "indian")])
+        AllRestaurantsView(datas: [restaurant(name: "7 Star Restaurant (Indian/Malay Food)", roadNumber: "768", roadName: "UPPER SERANGOON ROAD", unitNumber: "02-03", buildingName: "-", postalCode: 534636, tags: "indian")])
     }
 }

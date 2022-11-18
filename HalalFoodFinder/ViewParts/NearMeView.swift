@@ -12,12 +12,13 @@ struct NearMeView: View {
     var roadname: String
     var name: String
     var tag: String
+ 
     
     var body: some View {
         VStack(alignment: .leading){
             
             HStack {
-                Text("#\(tag.capitalized)")
+                Text("#\((tag == "" ? "MainCourse" : tag.capitalized))")
                     .font(.caption)
                 
                 Spacer()

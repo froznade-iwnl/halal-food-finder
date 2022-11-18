@@ -6,10 +6,27 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct NearestRestaurantView: View {
+    @StateObject private var mapAPI = MapAPI()
+    @State private var text = ""
+       
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      VStack {
+         TextField("Enter an address", text: $text)
+            .textFieldStyle(.roundedBorder)
+            .padding(.horizontal)
+         
+         Button("Find address") {
+            mapAPI.getLocation(address: text, delta: 0.0025)
+         }
+         
+         Map(coordinateRegion: $mapAPI.region, annotationItems: mapAPI.locations) { location in
+             MapMarker(coordinate: location.coordinate, tint: Color.bgColor)
+         }
+         .ignoresSafeArea()
+      }
     }
 }
 

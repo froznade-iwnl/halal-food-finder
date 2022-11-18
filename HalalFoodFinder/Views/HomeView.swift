@@ -35,15 +35,11 @@ struct HomeView: View {
                             HStack {
                                 VStack(alignment: .leading){
                                     
-                                    Text("User")
-                                        .font(.body)
-                                        .foregroundColor(.white)
-                                        .padding(.top, 20)
-                                    
                                     Text("Good Morning 👋🏻")
                                         .foregroundColor(.white)
                                         .font(.title)
                                         .bold()
+                                        .padding(.top, 20)
                                 }
                                 
                                 Spacer()
@@ -96,6 +92,7 @@ struct HomeView: View {
 
                                     }
                                 }
+                                .padding(2)
                             }
                             .padding(.bottom, 20)
                             
@@ -145,6 +142,7 @@ struct HomeView: View {
                                     }
                                     
                                 }
+                                .padding(2)
                             }
                             
                             
@@ -162,6 +160,6 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView(data: [restaurant(name: "7 Star Restaurant (Indian/Malay Food)", roadNumber: Optional(768), roadName: "UPPER SERANGOON ROAD", unitNumber: "02-03", buildingName: "-", postalCode: 534636, tags: "indian")])
+        HomeView(data: [restaurant(name: "7 Star Restaurant (Indian/Malay Food)", roadNumber: "768", roadName: "UPPER SERANGOON ROAD", unitNumber: "02-03", buildingName: "-", postalCode: 534636, tags: "indian")])
     }
 }

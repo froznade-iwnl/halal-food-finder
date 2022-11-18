@@ -6,17 +6,36 @@
 //
 
 import Foundation
+import CoreLocation
+import SwiftUI
 
 struct restaurant: Codable, Identifiable{
     let id = UUID()
     
     var name: String
-    var roadNumber: Int?
+    
+    var roadNumber: String = ""
     var roadName: String
     var unitNumber: String
     var buildingName: String
     var postalCode: Int
+    
+//    var distance: Double = -1
+    
     var tags: String
+    
+    func getAddress() -> String {
+        return "\(roadName), \(postalCode), Singapore"
+    }
+    
+    func getLocation() -> [Location] {
+        let address = self.getAddress()
+        do{
+            MapAPI().getLocation(address: address, delta: 0.025)
+            
+        }
+        return MapAPI().locations
+    }
 }
 
 class restaurantDataGrabber: ObservableObject {

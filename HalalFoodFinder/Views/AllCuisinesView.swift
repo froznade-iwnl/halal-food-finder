@@ -48,6 +48,6 @@ struct AllCuisinesView: View {
 
 struct AllCuisinesView_Previews: PreviewProvider {
     static var previews: some View {
-        AllCuisinesView(data: [restaurant(name: "7 Star Restaurant (Indian/Malay Food)", roadNumber: Optional(768), roadName: "UPPER SERANGOON ROAD", unitNumber: "02-03", buildingName: "-", postalCode: 534636, tags: "indian")])
+        AllCuisinesView(data: [restaurant(name: "7 Star Restaurant (Indian/Malay Food)", roadNumber: "768", roadName: "UPPER SERANGOON ROAD", unitNumber: "02-03", buildingName: "-", postalCode: 534636, tags: "indian")])
     }
 }

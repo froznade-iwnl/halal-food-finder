@@ -6,10 +6,13 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct RestaurantDetailsView: View {
     
     var data: restaurant
+    @State var locationCoordinate: [Double] = []
+    @StateObject private var mapAPI = MapAPI()
     
     var body: some View {
         
@@ -33,7 +36,11 @@ struct RestaurantDetailsView: View {
                                 .bold()
                             
                             Spacer()
+                            
+                            Text("\(mapAPI.distance.formatted(.number.precision(.fractionLength(0))))m")
+                                .foregroundColor(.white)
                         }
+                        
                         
                         
                     }
@@ -51,7 +58,7 @@ struct RestaurantDetailsView: View {
                         .font(.headline)
                         .padding(.top, 20)
                     
-                    MapView(address: "\(data.name),\(data.buildingName), \(data.roadNumber) \(data.roadName), \(data.postalCode), Singapore")
+                    MapView(address: data.getAddress())
                         .frame(height: 200)
                     
                     Text("\(data.roadName), \(data.postalCode)".capitalized)
@@ -66,13 +73,14 @@ struct RestaurantDetailsView: View {
                 
             }
             
+        }.onAppear {
+            mapAPI.getLocation(address: data.getAddress(), delta: 0.0025)
         }
-        
     }
 }
 
 struct RestaurantDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        RestaurantDetailsView(data: restaurant(name: "7 Star Restaurant (Indian/Malay Food)", roadNumber: Optional(768), roadName: "UPPER SERANGOON ROAD", unitNumber: "02-03", buildingName: "-", postalCode: 534636, tags: "indian"))
+        RestaurantDetailsView(data: restaurant(name: "7 Star Restaurant (Indian/Malay Food)", roadNumber: "768", roadName: "UPPER SERANGOON ROAD", unitNumber: "02-03", buildingName: "-", postalCode: 534636, tags: "indian"))
     }
 }

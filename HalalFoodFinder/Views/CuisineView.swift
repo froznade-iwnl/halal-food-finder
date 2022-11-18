@@ -44,7 +44,7 @@ struct CuisineView: View {
                             RestaurantDetailsView(data: data)
                         } label: {
                             VStack {
-                                RestaurantFilteredMemberView(name: data.name, postalCode: data.postalCode, roadName: data.roadName)
+                                RestaurantFilteredMemberView(name: data.name, postalCode: data.postalCode, roadName: data.roadName, data: data)
                                 
                                 Divider()
                             }

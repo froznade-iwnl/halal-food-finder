@@ -1,7 +1,7 @@
 [
  {
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": 65,
+   "roadNumber": "65",
    "roadName": "AIRPORT BOULEVARD",
    "unitNumber": "B2-02",
    "buildingName": "CHANGI AIRPORT TERMINAL 3",
@@ -10,7 +10,7 @@
  },
  {
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": 80,
+   "roadNumber": "80",
    "roadName": "Airport Boulevard",
    "unitNumber": "03-47",
    "buildingName": "Changi Airport Terminal 1",
@@ -19,7 +19,7 @@
  },
  {
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": 2,
+   "roadNumber": "2",
    "roadName": "ORCHARD TURN",
    "unitNumber": "B4-06/06A",
    "buildingName": "ION ORCHARD",
@@ -28,7 +28,7 @@
  },
  {
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": 68,
+   "roadNumber": "68",
    "roadName": "ORCHARD ROAD",
    "unitNumber": "B1-07",
    "buildingName": "PLAZA SINGAPURA",
@@ -37,7 +37,7 @@
  },
  {
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": 1,
+   "roadNumber": "1",
    "roadName": "WOODLANDS SQUARE",
    "unitNumber": "01-38/39",
    "buildingName": "CAUSEWAY POINT",
@@ -46,7 +46,7 @@
  },
  {
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": 10,
+   "roadNumber": "10",
    "roadName": "Tampines Central 1 #01 39/40/K3/K4",
    "unitNumber": "-",
    "buildingName": "Tampines 1",
@@ -55,7 +55,7 @@
  },
  {
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": 302,
+   "roadNumber": "302",
    "roadName": "Tiong Bahru Road",
    "unitNumber": "01-105",
    "buildingName": "Tiong Bahru Plaza",
@@ -64,7 +64,7 @@
  },
  {
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": 1,
+   "roadNumber": "1",
    "roadName": "JURONG WEST CENTRAL 2",
    "unitNumber": "03-34",
    "buildingName": "JURONG POINT SHOPPING CENTRE",
@@ -73,7 +73,7 @@
  },
  {
    "name": "498 Yong Tau Foo (S7) @ 7 Stars",
-   "roadNumber": 498,
+   "roadNumber": "498",
    "roadName": "JURONG WEST STREET 41",
    "unitNumber": "01-426",
    "buildingName": "-",
@@ -82,7 +82,7 @@
  },
  {
    "name": "7 Star Restaurant (Indian/Malay Food)",
-   "roadNumber": 768,
+   "roadNumber": "768",
    "roadName": "UPPER SERANGOON ROAD",
    "unitNumber": "02-03",
    "buildingName": "-",
@@ -91,7 +91,7 @@
  },
  {
    "name": "A Poke Theory",
-   "roadNumber": 27,
+   "roadNumber": "27",
    "roadName": "Boon Tat Street",
    "unitNumber": "-",
    "buildingName": "-",
@@ -100,7 +100,7 @@
  },
  {
    "name": "A Poke Theory",
-   "roadNumber": 1,
+   "roadNumber": "1",
    "roadName": "Lower Kent Ridge Road",
    "unitNumber": "02-12",
    "buildingName": "One@Kent Ridge",
@@ -109,7 +109,7 @@
  },
  {
    "name": "A Poke Theory",
-   "roadNumber": null,
+   "roadNumber": "",
    "roadName": "5 Straits View",
    "unitNumber": "B2-52",
    "buildingName": "Marina One, The heart",
@@ -118,7 +118,7 @@
  },
  {
    "name": "A Poke Theory",
-   "roadNumber": 7,
+   "roadNumber": "7",
    "roadName": "Fraser Street",
    "unitNumber": "01-36/37",
    "buildingName": "Duo Galleria",
@@ -127,7 +127,7 @@
  },
  {
    "name": "A SPOONFUL OF SUGAR",
-   "roadNumber": 4,
+   "roadNumber": "4",
    "roadName": "CHANGI VILLAGE ROAD",
    "unitNumber": "01-2072",
    "buildingName": "-",
@@ -136,7 +136,7 @@
  },
  {
    "name": "A1 AZEE WESTERN FOOD (S7) @ SOON HONG EATING HOUSE (A'POSH BIZHUB)",
-   "roadNumber": 1,
+   "roadNumber": "1",
    "roadName": "Yishun Industrial Street 1",
    "unitNumber": "01-12",
    "buildingName": "A'posh Bizhub",
@@ -145,7 +145,7 @@
  },
  {
    "name": "Adam Chicken",
-   "roadNumber": 503,
+   "roadNumber": "503",
    "roadName": "WEST COAST DRIVE",
    "unitNumber": "01-28",
    "buildingName": "Ayer Rajah Food Centre",
@@ -154,7 +154,7 @@
  },
  {
    "name": "AH HUAT",
-   "roadNumber": 2,
+   "roadNumber": "2",
    "roadName": "BUKIT BATOK WEST AVENUE 7",
    "unitNumber": "01-09C",
    "buildingName": "HOMETEAM NS",
@@ -163,7 +163,7 @@
  },
  {
    "name": "Ah Meng Bistro",
-   "roadNumber": 80,
+   "roadNumber": "80",
    "roadName": "Mandai Lake Road",
    "unitNumber": "-",
    "buildingName": "Singapore Zoological Restaurant",
@@ -172,7 +172,7 @@
  },
  {
    "name": "Ah Meng Kitchen",
-   "roadNumber": 80,
+   "roadNumber": "80",
    "roadName": "Mandai Lake Road",
    "unitNumber": "-",
    "buildingName": "SINGAPORE ZOOLOGICAL GARDEN",
@@ -181,11 +181,740 @@
  },
  {
    "name": "Ah Meng Restaurant",
-   "roadNumber": 80,
+   "roadNumber": "80",
    "roadName": "MANDAI LAKE ROAD",
    "unitNumber": "-",
    "buildingName": "SINGAPORE ZOOLOGICAL GARDEN",
    "postalCode": 729826,
    "tags": "local"
+ },
+ {
+   "name": "126 CONNECTION BAKERY",
+   "roadNumber": "45",
+   "roadName": "OWEN ROAD",
+   "unitNumber": "01-297",
+   "buildingName": "-",
+   "postalCode": 210045,
+   "tags": "local"
+ },
+ {
+   "name": "13 MILES",
+   "roadNumber": "596B",
+   "roadName": "SEMBAWANG ROAD",
+   "unitNumber": "-",
+   "buildingName": "-",
+   "postalCode": 758455,
+   "tags": ""
+ },
+ {
+   "name": "149 Cafe@TechnipFMC",
+   "roadNumber": "149",
+   "roadName": "GUL CIRCLE",
+   "unitNumber": "2",
+   "buildingName": "-",
+   "postalCode": 629605,
+   "tags": ""
+ },
+ {
+   "name": "1983 A Taste of Nanyang",
+   "roadNumber": "E1",
+   "roadName": "WOODLANDS AVENUE 9",
+   "unitNumber": "02-10",
+   "buildingName": "-",
+   "postalCode": 738964,
+   "tags": ""
+ },
+ {
+   "name": "1983 A Taste of Nanyang",
+   "roadNumber": "2",
+   "roadName": "Ang Mo Kio Drive",
+   "unitNumber": "01-21",
+   "buildingName": "-",
+   "postalCode": 567720,
+   "tags": ""
+ },
+ {
+   "name": "1983 A Taste of Nanyang",
+   "roadNumber": "70",
+   "roadName": "STAMFORD ROAD",
+   "unitNumber": "026-018-09",
+   "buildingName": "-",
+   "postalCode": 178901,
+   "tags": ""
+ },
+ {
+   "name": "1983 Cafe Nanyang",
+   "roadNumber": "60",
+   "roadName": "AIRPORT BOULEVARD",
+   "unitNumber": "02-21",
+   "buildingName": "-",
+   "postalCode": 819643,
+   "tags": ""
+ },
+ {
+   "name": "1983 Coffee & Toast",
+   "roadNumber": "1",
+   "roadName": "MARITIME SQUARE",
+   "unitNumber": "01-01",
+   "buildingName": "-",
+   "postalCode": 99253,
+   "tags": ""
+ },
+ {
+   "name": "1983 Coffee&Toast",
+   "roadNumber": "",
+   "roadName": "1 Jurong East Street 21",
+   "unitNumber": "02-32/33",
+   "buildingName": "-",
+   "postalCode": 609606,
+   "tags": ""
+ },
+ {
+   "name": "1983 Coffee & Toast",
+   "roadNumber": "1",
+   "roadName": "JOO KOON CIRCLE",
+   "unitNumber": "02-21",
+   "buildingName": "-",
+   "postalCode": 629117,
+   "tags": ""
+ },
+ {
+   "name": "1983 Coffee & Toast",
+   "roadNumber": "1",
+   "roadName": "MARITIME SQUARE",
+   "unitNumber": "01-09/10",
+   "buildingName": "-",
+   "postalCode": 99253,
+   "tags": ""
+ },
+ {
+   "name": "1983 Coffee & Toast",
+   "roadNumber": "2",
+   "roadName": "SIMEI STREET 3",
+   "unitNumber": "1",
+   "buildingName": "-",
+   "postalCode": 529889,
+   "tags": ""
+ },
+ {
+   "name": "21 On Rajah",
+   "roadNumber": "1",
+   "roadName": "JALAN RAJAH",
+   "unitNumber": "01-15a",
+   "buildingName": "-",
+   "postalCode": 329133,
+   "tags": ""
+ },
+ {
+   "name": "4 Fingers Crispy Chicken",
+   "roadNumber": "50",
+   "roadName": "Jurong Gateway Road",
+   "unitNumber": "01-32",
+   "buildingName": "-",
+   "postalCode": 608549,
+   "tags": ""
+ },
+ {
+   "name": "4 Fingers Crispy Chicken",
+   "roadNumber": "9",
+   "roadName": "BISHAN PLACE",
+   "unitNumber": "01-32",
+   "buildingName": "-",
+   "postalCode": 150120,
+   "tags": ""
+ },
+ {
+   "name": "4 Fingers Crispy Chicken",
+   "roadNumber": "930",
+   "roadName": "Yishun Avenue 2",
+   "unitNumber": "01-15",
+   "buildingName": "-",
+   "postalCode": 819643,
+   "tags": ""
+ },
+ {
+   "name": "4 Fingers Crispy Chicken",
+   "roadNumber": "277",
+   "roadName": "ORCHARD ROAD",
+   "unitNumber": "01-04/05",
+   "buildingName": "-",
+   "postalCode": 524201,
+   "tags": ""
+ },
+ {
+   "name": "4 Fingers Crispy Chicken",
+   "roadNumber": "6",
+   "roadName": "RAFFLES BOULEVARD",
+   "unitNumber": "02-183A",
+   "buildingName": "-",
+   "postalCode": 599746,
+   "tags": ""
+ },
+ {
+   "name": "AJ Delights",
+   "roadNumber": "120",
+   "roadName": "BUKIT MERAH LANE 1",
+   "unitNumber": "01-82883",
+   "buildingName": "ALEXANDRA VILLAGE FOOD CENTER ",
+   "postalCode": 650155,
+   "tags": ""
+ },
+ {
+   "name": "Ajuma Japanese&Korean CuisineR10)@Staff Canteen By Kopitiam",
+   "roadNumber": "60",
+   "roadName": "AIRPORT BOULEVARD",
+   "unitNumber": "3M-10",
+   "buildingName": "CHANGI AIRPORT TERMINAL 2 ",
+   "postalCode": 650177,
+   "tags": ""
+ },
+ {
+   "name": "Changi Airport Terminal 2",
+   "roadNumber": "",
+   "roadName": "TAMPINES STREET 21",
+   "unitNumber": "01-1155",
+   "buildingName": "-",
+   "postalCode": 670257,
+   "tags": ""
+ },
+ {
+   "name": "AL AZHAR",
+   "roadNumber": "201D",
+   "roadName": "CHEONG CHIN NAM ROAD",
+   "unitNumber": "- ",
+   "buildingName": "-",
+   "postalCode": 730167,
+   "tags": ""
+ },
+ {
+   "name": "AL AZHAR",
+   "roadNumber": "11/12",
+   "roadName": "Bukit Batok St 11",
+   "unitNumber": "01-324",
+   "buildingName": "-",
+   "postalCode": 673635,
+   "tags": ""
+ },
+ {
+   "name": "AL MADINA Famous Prata Corner",
+   "roadNumber": "155",
+   "roadName": "Bukit Batok West Ave 8",
+   "unitNumber": "01-247",
+   "buildingName": "-",
+   "postalCode": 556083,
+   "tags": ""
+ },
+ {
+   "name": "AL MADINA Famous Prata Corner",
+   "roadNumber": "177",
+   "roadName": "Bangkit Road Bukit Panjang New",
+   "unitNumber": "01-61",
+   "buildingName": "ZHENGHUA 257 COFFEE HOUSE ",
+   "postalCode": 556083,
+   "tags": ""
+ },
+ {
+   "name": "AL MADINA Famous Prata Corner",
+   "roadNumber": "257",
+   "roadName": "Town",
+   "unitNumber": "01-07",
+   "buildingName": "-",
+   "postalCode": 671524,
+   "tags": ""
+ },
+ {
+   "name": "AL MADINA Famous Prata Corner",
+   "roadNumber": "167",
+   "roadName": "Woodlands St 11",
+   "unitNumber": "01-01",
+   "buildingName": "-",
+   "postalCode": 730131,
+   "tags": ""
+ },
+ {
+   "name": "AL MADINA Famous Prata Corner",
+   "roadNumber": "635c",
+   "roadName": "Senja Road",
+   "unitNumber": "82-49",
+   "buildingName": "-",
+   "postalCode": 510444,
+   "tags": ""
+ },
+ {
+   "name": "ALL GOOD GOURMET",
+   "roadNumber": "23",
+   "roadName": "SERANGOON CENTRAL",
+   "unitNumber": "82-49",
+   "buildingName": "NEX",
+   "postalCode": 523878,
+   "tags": ""
+ },
+ {
+   "name": "ALL GOOD GOURMET",
+   "roadNumber": "23",
+   "roadName": "SERANGOON CENTRAL",
+   "unitNumber": "02-03/04",
+   "buildingName": "NEX",
+   "postalCode": 730573,
+   "tags": ""
+ },
+ {
+   "name": "AMETHYST PASTRY & CAKES",
+   "roadNumber": "524a",
+   "roadName": "JELAPANG ROAD",
+   "unitNumber": "01-206",
+   "buildingName": "GREENRIDGE SHOPPING CENTER ",
+   "postalCode": 380005,
+   "tags": ""
+ },
+ {
+   "name": "Amigo's Food Pte Ltd",
+   "roadNumber": "131",
+   "roadName": "MARSILING RISE",
+   "unitNumber": "01-102",
+   "buildingName": "-",
+   "postalCode": 427585,
+   "tags": ""
+ },
+ {
+   "name": "Amigo's Food Pte Ltd",
+   "roadNumber": "444",
+   "roadName": "PASIR RIS DRIVE 6",
+   "unitNumber": "01-66",
+   "buildingName": "-",
+   "postalCode": 380202,
+   "tags": ""
+ },
+ {
+   "name": "Amigo's Food Pte Ltd",
+   "roadNumber": "878c",
+   "roadName": "TAMPINES AVENUE 8",
+   "unitNumber": "01-01",
+   "buildingName": "-",
+   "postalCode": 427585,
+   "tags": ""
+ },
+ {
+   "name": "Amigo's Food Pte Ltd",
+   "roadNumber": "573",
+   "roadName": "WOODLAND DRIVE 16",
+   "unitNumber": "01-22",
+   "buildingName": "-",
+   "postalCode": 500005,
+   "tags": ""
+ },
+ {
+   "name": "Amigo's Food Pte Ltd",
+   "roadNumber": "5",
+   "roadName": "UPPER BOON KENG ROAD",
+   "unitNumber": "01-01",
+   "buildingName": "MULTI STOREY CAR PARK",
+   "postalCode": 819665,
+   "tags": ""
+ },
+ {
+   "name": "ANDES",
+   "roadNumber": "328",
+   "roadName": "Joo Chiat Road",
+   "unitNumber": "01-2001",
+   "buildingName": "JOO CHIAT APARTMENTS ",
+   "postalCode": 519599,
+   "tags": ""
+ },
+ {
+   "name": "ANDES",
+   "roadNumber": "5",
+   "roadName": "CHANGI VILLAGE ROAD",
+   "unitNumber": "02-202",
+   "buildingName": "- ",
+   "postalCode": 500005,
+   "tags": ""
+ },
+ {
+   "name": "ANDES",
+   "roadNumber": "10",
+   "roadName": "Airport Boulevard",
+   "unitNumber": "02-325",
+   "buildingName": "CHANGI AIRPORT TERMINAL 4 ",
+   "postalCode": 819665,
+   "tags": ""
+ },
+ {
+   "name": "ANDES",
+   "roadNumber": "750",
+   "roadName": "Chai Chee Road",
+   "unitNumber": "01-30",
+   "buildingName": "Technopark@Chai Chee",
+   "postalCode": 469000,
+   "tags": ""
+ },
+ {
+   "name": "A-Po Hokkien Mee (MR1)@The Food Market Century Square",
+   "roadNumber": "2",
+   "roadName": "TAMPINES CENTRAL 5",
+   "unitNumber": "03-19",
+   "buildingName": "CENTURY SQUARE",
+   "postalCode": 529509,
+   "tags": ""
+ },
+ {
+   "name": "A-POH KITCHEN PTE LTD",
+   "roadNumber": "354",
+   "roadName": "CLEMENTI AVENUE 2",
+   "unitNumber": "01-223",
+   "buildingName": "CLEMENTI AVENUE 2 SHOPPING center ",
+   "postalCode": 120354,
+   "tags": ""
+ },
+ {
+   "name": "ARIFF'S RESTAURANT",
+   "roadNumber": "71",
+   "roadName": "KALLANG BAHRU",
+   "unitNumber": "01-529B",
+   "buildingName": "-",
+   "postalCode": 330071,
+   "tags": ""
+ },
+ {
+   "name": "ARIFF'S RESTAURANT",
+   "roadNumber": "278",
+   "roadName": "BUKIT BATOK EAST AVE 3",
+   "unitNumber": "01-365",
+   "buildingName": "- ",
+   "postalCode": 650278,
+   "tags": ""
+ },
+ {
+   "name": "Amold's Fried Chicken (S)Pte Ltd",
+   "roadNumber": "21",
+   "roadName": "HOUGANG STREET 51",
+   "unitNumber": "01-49",
+   "buildingName": "HOUGANG GREEN SHOPPING MALL",
+   "postalCode": 538719,
+   "tags": ""
+ },
+ {
+   "name": "Arnold's Fried Chicken (S)Pte Ltd",
+   "roadNumber": "60",
+   "roadName": "JURONG WEST CENTRAL 3",
+   "unitNumber": "01-05",
+   "buildingName": "The Frontier CC",
+   "postalCode": 648346,
+   "tags": ""
+ },
+ {
+   "name": "Arnold's Fried Chicken(S)Pte Ltd",
+   "roadNumber": "51",
+   "roadName": "YISHUN CENTRAL 1",
+   "unitNumber": "01-04",
+   "buildingName": "YISHUN 10 CINEMA CINEPLEX",
+   "postalCode": 768794,
+   "tags": ""
+ },
+ {
+   "name": "Amold's Fried Chicken (S)Pte Ltd",
+   "roadNumber": "810",
+   "roadName": "GEYLANG ROAD",
+   "unitNumber": "02-99/101",
+   "buildingName": "CITY PLAZA",
+   "postalCode": 409286,
+   "tags": ""
+ },
+ {
+   "name": "Amold's Fried Chicken(S)Pte Ltd",
+   "roadNumber": "215",
+   "roadName": "BEDOK NORTH STREET 1",
+   "unitNumber": "01-83",
+   "buildingName": "- ",
+   "postalCode": 460215,
+   "tags": ""
+ },
+ {
+   "name": "AROMA KAMPUNG PTE LTD",
+   "roadNumber": "2",
+   "roadName": "JOO CHIAT ROAD",
+   "unitNumber": "03-1111",
+   "buildingName": "JOO CHIAT COMPLEX",
+   "postalCode": 420002,
+   "tags": ""
+ },
+ {
+   "name": "ArtBites TRCC",
+   "roadNumber": "5",
+   "roadName": "WOODLANDS AVENUE 9",
+   "unitNumber": "01-01",
+   "buildingName": "REPUBLIC POLYTECHNIC",
+   "postalCode": 738962,
+   "tags": ""
+ },
+ {
+   "name": "ASAM TREE CAFE,BAKERY &.      RESTAURANT",
+   "roadNumber": "712",
+   "roadName": "ANG MO KIO AVENUE 6",
+   "unitNumber": "01-4056",
+   "buildingName": "- ",
+   "postalCode": 560712,
+   "tags": ""
+ },
+ {
+   "name": "Asam Tree Malay Cuisine(S5)@",
+   "roadNumber": "90",
+   "roadName": "Yishun Central",
+   "unitNumber": "01-12",
+   "buildingName": "Khoo Teck Puat Hospital",
+   "postalCode": 768828,
+   "tags": ""
+ },
+ {
+   "name": "NTUC Foodfare KTPH",
+   "roadNumber": "100",
+   "roadName": "HOUGANG AVENUE 10",
+   "unitNumber": "01-03",
+   "buildingName": "KANG KAR MALL",
+   "postalCode": 538767,
+   "tags": ""
+ },
+ {
+   "name": "ASAM TREE SNACK & NASI LEMAK",
+   "roadNumber": "25",
+   "roadName": "SCOTTS ROAD",
+   "unitNumber": "－",
+   "buildingName": "SCOTTSWALK",
+   "postalCode": 228220,
+   "tags": ""
+ },
+ {
+   "name": "ASIAN COUNTER@CAROUSEL",
+   "roadNumber": "21",
+   "roadName": "Tampines Ave 1",
+   "unitNumber": "01-00",
+   "buildingName": "Temasek Polytechnic(Blk 23A)",
+   "postalCode": 529757,
+   "tags": ""
+ },
+ {
+   "name": "ASIAN DELIGHT(S4)@FLAVOURS BY HESED&EMET",
+   "roadNumber": "6",
+   "roadName": "RAFFLES BOULEVARD",
+   "unitNumber": "4",
+   "buildingName": "MARINA SQUARE",
+   "postalCode": 39594,
+   "tags": ""
+ },
+ {
+   "name": "ASIAN DELIGHTS@AQUAMARINE",
+   "roadNumber": "2",
+   "roadName": "STAMFORD ROAD",
+   "unitNumber": "－",
+   "buildingName": "FAIRMONT SINGAPORE &",
+   "postalCode": 178882,
+   "tags": ""
+ },
+ {
+   "name": "ASIAN FOOD CORNER@AMC",
+   "roadNumber": "1",
+   "roadName": "GEYLANG SERAI",
+   "unitNumber": "01-210",
+   "buildingName": "SWISSOTEL THE STAMFORD",
+   "postalCode": 402001,
+   "tags": ""
+ },
+ {
+   "name": "Australia Design Westem Food （S2)@Mr Teh Tarik Geylang Serai",
+   "roadNumber": "1",
+   "roadName": "Choa Chu Kang Grove",
+   "unitNumber": "03-05",
+   "buildingName": "-",
+   "postalCode": 688236,
+   "tags": ""
+ },
+ {
+   "name": "Awal Western and Thai Steamboat",
+   "roadNumber": "60",
+   "roadName": "PASIR RIS DRIVE 3",
+   "unitNumber": "1",
+   "buildingName": "ARANDA COUNTRY CLUB",
+   "postalCode": 519497,
+   "tags": ""
+ },
+ {
+   "name": "Ayam Bakar Ojolali",
+   "roadNumber": "304",
+   "roadName": "ORCHARD ROAD",
+   "unitNumber": "03-39",
+   "buildingName": "LUCKY PLAZA",
+   "postalCode": 238863,
+   "tags": ""
+ },
+ {
+   "name": "Ayam Bakar Ojolali",
+   "roadNumber": "304",
+   "roadName": "ORCHARD ROAD",
+   "unitNumber": "03-43",
+   "buildingName": "LUCKY PLAZA",
+   "postalCode": 238863,
+   "tags": ""
+ },
+ {
+   "name": "AYAM PENYET",
+   "roadNumber": "676",
+   "roadName": "WOODLANDS DRIVE 71",
+   "unitNumber": "2",
+   "buildingName": "KAMPUNG ADMIRALTY HAWKER center ",
+   "postalCode": 730676,
+   "tags": ""
+ },
+ {
+   "name": "AYAM PENYET",
+   "roadNumber": "768",
+   "roadName": "110 Pasir Ris Central",
+   "unitNumber": "01-02",
+   "buildingName": "-",
+   "postalCode": 519641,
+   "tags": ""
+ },
+ {
+   "name": "AYAM PENYET(S5)@FORK AND",
+   "roadNumber": "204",
+   "roadName": "WOODLANDS AVENUE 6",
+   "unitNumber": "1",
+   "buildingName": "WOODLANDS MART ",
+   "postalCode": 730768,
+   "tags": ""
+ },
+ {
+   "name": "SPOON WOODLANDS MART",
+   "roadNumber": "17",
+   "roadName": "BEDOK NORTH STREET 1",
+   "unitNumber": "01-435",
+   "buildingName": "- ",
+   "postalCode": 460204,
+   "tags": ""
+ },
+ {
+   "name": "Ayam Penyet(S6)@Mr Teh Tarik",
+   "roadNumber": "304",
+   "roadName": "Petir Road",
+   "unitNumber": "B2-57/58",
+   "buildingName": "-",
+   "postalCode": 678278,
+   "tags": ""
+ },
+ {
+   "name": "Eating House",
+   "roadNumber": "2",
+   "roadName": "ORCHARD ROAD",
+   "unitNumber": "03-36/37",
+   "buildingName": "LUCKY PLAZA",
+   "postalCode": 238863,
+   "tags": ""
+ },
+ {
+   "name": "AYAM PENYET PRESIDENT",
+   "roadNumber": "1",
+   "roadName": "JURONG EAST CENTRAL 1",
+   "unitNumber": "01-05",
+   "buildingName": "JCUBE",
+   "postalCode": 609731,
+   "tags": ""
+ },
+ {
+   "name": "AYAM PENYET PRESIDENT",
+   "roadNumber": "23",
+   "roadName": "Stadium Place",
+   "unitNumber": "01-23",
+   "buildingName": "-",
+   "postalCode": 397628,
+   "tags": ""
+ },
+ {
+   "name": "AYAM PENYET PRESIDENT",
+   "roadNumber": "2",
+   "roadName": "Serangoon Central 1",
+   "unitNumber": "B1-13/14",
+   "buildingName": "-",
+   "postalCode": 556083,
+   "tags": ""
+ },
+ {
+   "name": "AYAM PENYET PRESIDENT",
+   "roadNumber": "930",
+   "roadName": "TAMPINES CENTRAL 5",
+   "unitNumber": "B1-20",
+   "buildingName": "CENTURY SQUARE ",
+   "postalCode": 529509,
+   "tags": ""
+ },
+ {
+   "name": "AYAM PENYET PRESIDENT",
+   "roadNumber": "728",
+   "roadName": "YISHUN AVENUE 2",
+   "unitNumber": "B1-54",
+   "buildingName": "NORTHPOINT ",
+   "postalCode": 769098,
+   "tags": ""
+ },
+ {
+   "name": "AYAM PENYET PRESIDENT",
+   "roadNumber": "1000",
+   "roadName": "ANG MO KIO AVENUE 6",
+   "unitNumber": "01-4200",
+   "buildingName": "- MARINE COVE ",
+   "postalCode": 560728,
+   "tags": ""
+ },
+ {
+   "name": "AYAM PENYET PRESIDENT",
+   "roadNumber": "321",
+   "roadName": "EAST COAST PARKWAY",
+   "unitNumber": "01-02",
+   "buildingName": "PARKWAY EAST HOSPITAL ",
+   "postalCode": 449876,
+   "tags": ""
+ },
+ {
+   "name": "AYAM PENYET UNCLE PENYET",
+   "roadNumber": "276/278",
+   "roadName": "JOO CHIAT PLACE",
+   "unitNumber": "01-10",
+   "buildingName": "-",
+   "postalCode": 427990,
+   "tags": ""
+ },
+ {
+   "name": "BABALICIOUS",
+   "roadNumber": "26",
+   "roadName": "CHANGI ROAD",
+   "unitNumber": "－",
+   "buildingName": "-",
+   "postalCode": 419756,
+   "tags": ""
+ },
+ {
+   "name": "Bagus",
+   "roadNumber": "1",
+   "roadName": "SENTOSA GATEWAY",
+   "unitNumber": "B1-133",
+   "buildingName": "THE COMMERZE ",
+   "postalCode": 98138,
+   "tags": ""
+ },
+ {
+   "name": "Bagus",
+   "roadNumber": "41",
+   "roadName": "IRVING PLACE",
+   "unitNumber": "02-04",
+   "buildingName": "-",
+   "postalCode": 369546,
+   "tags": ""
+ },
+ {
+   "name": "",
+   "roadNumber": "",
+   "roadName": "Bukit Panjang Ring Road",
+   "unitNumber": "-",
+   "buildingName": "SPC PETROL STATION",
+   "postalCode": 679945,
+   "tags": ""
  }
 ]
