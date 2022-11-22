@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AllCuisinesView: View {
     
-    var data: [restaurant]
+    var data: [Restaurant]
     
     var body: some View {
             ScrollView {
@@ -47,7 +47,8 @@ struct AllCuisinesView: View {
 }
 
 struct AllCuisinesView_Previews: PreviewProvider {
+    
     static var previews: some View {
-        AllCuisinesView(data: [restaurant(name: "7 Star Restaurant (Indian/Malay Food)", roadNumber: "768", roadName: "UPPER SERANGOON ROAD", unitNumber: "02-03", buildingName: "-", postalCode: 534636, tags: "indian")])
+        AllCuisinesView(data: [Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500")])
     }
 }

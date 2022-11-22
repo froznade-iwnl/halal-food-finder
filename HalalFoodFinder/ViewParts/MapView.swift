@@ -10,27 +10,27 @@ import MapKit
 
 struct MapView: View {
     
-    @State var address: String
-    @StateObject private var mapAPI = MapAPI()
-        
-
+    @StateObject var mapData = MapData()
+    var address: String
     
     var body: some View {
         VStack {
             
-            Map(coordinateRegion: $mapAPI.region, annotationItems: mapAPI.locations) { location in
-                    MapMarker(coordinate: location.coordinate, tint: .red)
-                }
+            Map(coordinateRegion: $mapData.region, annotationItems: mapData.location) { location in
+                MapMarker(coordinate: location.coordinate, tint: Color.bgColor)
+            }
             
         }
-        .onAppear {
-            mapAPI.getLocation(address: address, delta: 0.0025)
+        .onAppear{
+            mapData.getMap(from: address)
         }
+        
     }
+    
 }
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(address: "CHANGI AIRPORT TERMINAL 3, 65 AIRPORT BOULEVARD, B2-02, 819663, Singapore")
+        MapView(address: "One-North Singapore")
     }
 }

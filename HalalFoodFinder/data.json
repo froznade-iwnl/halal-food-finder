@@ -1,920 +1,810 @@
 [
  {
+   "id": 0,
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": "65",
-   "roadName": "AIRPORT BOULEVARD",
-   "unitNumber": "B2-02",
-   "buildingName": "CHANGI AIRPORT TERMINAL 3",
-   "postalCode": 819663,
-   "tags": "western"
+   "tags": "western",
+   "address": "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore",
+   "latitude": "1.3559270153846200",
+   "longitude": "103.98648331538500"
  },
  {
+   "id": 1,
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": "80",
-   "roadName": "Airport Boulevard",
-   "unitNumber": "03-47",
-   "buildingName": "Changi Airport Terminal 1",
-   "postalCode": 819642,
-   "tags": "western"
+   "tags": "western",
+   "address": "80, Airport Boulevard 03-47, Changi Airport Terminal 1, 819642 Singapore",
+   "latitude": "1.3615263625",
+   "longitude": "103.9892155875"
  },
  {
+   "id": 2,
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": "2",
-   "roadName": "ORCHARD TURN",
-   "unitNumber": "B4-06/06A",
-   "buildingName": "ION ORCHARD",
-   "postalCode": 238801,
-   "tags": "western"
+   "tags": "western",
+   "address": "2, ORCHARD TURN B4-06/06A, ION ORCHARD, 238801 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 3,
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": "68",
-   "roadName": "ORCHARD ROAD",
-   "unitNumber": "B1-07",
-   "buildingName": "PLAZA SINGAPURA",
-   "postalCode": 238839,
-   "tags": "western"
+   "tags": "western",
+   "address": "68, ORCHARD ROAD B1-07, PLAZA SINGAPURA, 238839 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 4,
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": "1",
-   "roadName": "WOODLANDS SQUARE",
-   "unitNumber": "01-38/39",
-   "buildingName": "CAUSEWAY POINT",
-   "postalCode": 738099,
-   "tags": "western"
+   "tags": "western",
+   "address": "1, WOODLANDS SQUARE 01-38/39, CAUSEWAY POINT, 738099 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 5,
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": "10",
-   "roadName": "Tampines Central 1 #01 39/40/K3/K4",
-   "unitNumber": "-",
-   "buildingName": "Tampines 1",
-   "postalCode": 529536,
-   "tags": "western"
+   "tags": "western",
+   "address": "10, Tampines Central 1 #01 39/40/K3/K4 -, Tampines 1, 529536 Singapore",
+   "latitude": "1.3408630000000000",
+   "longitude": "103.83039182212100"
  },
  {
+   "id": 6,
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": "302",
-   "roadName": "Tiong Bahru Road",
-   "unitNumber": "01-105",
-   "buildingName": "Tiong Bahru Plaza",
-   "postalCode": 168732,
-   "tags": "western"
+   "tags": "western",
+   "address": "302, Tiong Bahru Road 01-105, Tiong Bahru Plaza, 168732 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 7,
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": "1",
-   "roadName": "JURONG WEST CENTRAL 2",
-   "unitNumber": "03-34",
-   "buildingName": "JURONG POINT SHOPPING CENTRE",
-   "postalCode": 648886,
-   "tags": "western"
+   "tags": "western",
+   "address": "1, JURONG WEST CENTRAL 2 03-34, JURONG POINT SHOPPING CENTRE, 648886 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 8,
    "name": "498 Yong Tau Foo (S7) @ 7 Stars",
-   "roadNumber": "498",
-   "roadName": "JURONG WEST STREET 41",
-   "unitNumber": "01-426",
-   "buildingName": "-",
-   "postalCode": 640498,
-   "tags": "chinese"
+   "tags": "chinese",
+   "address": "498, JURONG WEST STREET 41 01-426, -, 640498 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 9,
    "name": "7 Star Restaurant (Indian/Malay Food)",
-   "roadNumber": "768",
-   "roadName": "UPPER SERANGOON ROAD",
-   "unitNumber": "02-03",
-   "buildingName": "-",
-   "postalCode": 534636,
-   "tags": "indian"
+   "tags": "indian",
+   "address": "768, UPPER SERANGOON ROAD 02-03, -, 534636 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 10,
    "name": "A Poke Theory",
-   "roadNumber": "27",
-   "roadName": "Boon Tat Street",
-   "unitNumber": "-",
-   "buildingName": "-",
-   "postalCode": 69623,
-   "tags": "japanese"
+   "tags": "japanese",
+   "address": "27, Boon Tat Street -, -, 69623 Singapore",
+   "latitude": "",
+   "longitude": ""
  },
  {
+   "id": 11,
    "name": "A Poke Theory",
-   "roadNumber": "1",
-   "roadName": "Lower Kent Ridge Road",
-   "unitNumber": "02-12",
-   "buildingName": "One@Kent Ridge",
-   "postalCode": 119082,
-   "tags": "japanese"
+   "tags": "japanese",
+   "address": "1, Lower Kent Ridge Road 02-12, One@Kent Ridge, 119082 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 12,
    "name": "A Poke Theory",
-   "roadNumber": "",
-   "roadName": "5 Straits View",
-   "unitNumber": "B2-52",
-   "buildingName": "Marina One, The heart",
-   "postalCode": 18935,
-   "tags": "japanese"
+   "tags": "japanese",
+   "address": "nan, 5 Straits View B2-52, Marina One, The heart, 18935 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 13,
    "name": "A Poke Theory",
-   "roadNumber": "7",
-   "roadName": "Fraser Street",
-   "unitNumber": "01-36/37",
-   "buildingName": "Duo Galleria",
-   "postalCode": 189356,
-   "tags": "japanese"
+   "tags": "japanese",
+   "address": "7, Fraser Street 01-36/37, Duo Galleria, 189356 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 14,
    "name": "A SPOONFUL OF SUGAR",
-   "roadNumber": "4",
-   "roadName": "CHANGI VILLAGE ROAD",
-   "unitNumber": "01-2072",
-   "buildingName": "-",
-   "postalCode": 500004,
-   "tags": "dessert"
+   "tags": "dessert",
+   "address": "4, CHANGI VILLAGE ROAD 01-2072, -, 500004 Singapore",
+   "latitude": "1.38908",
+   "longitude": "103.98745"
  },
  {
+   "id": 15,
    "name": "A1 AZEE WESTERN FOOD (S7) @ SOON HONG EATING HOUSE (A'POSH BIZHUB)",
-   "roadNumber": "1",
-   "roadName": "Yishun Industrial Street 1",
-   "unitNumber": "01-12",
-   "buildingName": "A'posh Bizhub",
-   "postalCode": 768160,
-   "tags": "western"
+   "tags": "western",
+   "address": "1, Yishun Industrial Street 1 01-12, A'posh Bizhub, 768160 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 16,
    "name": "Adam Chicken",
-   "roadNumber": "503",
-   "roadName": "WEST COAST DRIVE",
-   "unitNumber": "01-28",
-   "buildingName": "Ayer Rajah Food Centre",
-   "postalCode": 120503,
-   "tags": "western"
+   "tags": "western",
+   "address": "503, WEST COAST DRIVE 01-28, Ayer Rajah Food Centre, 120503 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 17,
    "name": "AH HUAT",
-   "roadNumber": "2",
-   "roadName": "BUKIT BATOK WEST AVENUE 7",
-   "unitNumber": "01-09C",
-   "buildingName": "HOMETEAM NS",
-   "postalCode": 659003,
-   "tags": "drinks"
+   "tags": "drinks",
+   "address": "2, BUKIT BATOK WEST AVENUE 7 01-09C, HOMETEAM NS, 659003 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 18,
    "name": "Ah Meng Bistro",
-   "roadNumber": "80",
-   "roadName": "Mandai Lake Road",
-   "unitNumber": "-",
-   "buildingName": "Singapore Zoological Restaurant",
-   "postalCode": 729826,
-   "tags": "local"
+   "tags": "local",
+   "address": "80, Mandai Lake Road -, Singapore Zoological Restaurant, 729826 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 19,
    "name": "Ah Meng Kitchen",
-   "roadNumber": "80",
-   "roadName": "Mandai Lake Road",
-   "unitNumber": "-",
-   "buildingName": "SINGAPORE ZOOLOGICAL GARDEN",
-   "postalCode": 729826,
-   "tags": "local"
+   "tags": "local",
+   "address": "80, Mandai Lake Road -, SINGAPORE ZOOLOGICAL GARDEN, 729826 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 20,
    "name": "Ah Meng Restaurant",
-   "roadNumber": "80",
-   "roadName": "MANDAI LAKE ROAD",
-   "unitNumber": "-",
-   "buildingName": "SINGAPORE ZOOLOGICAL GARDEN",
-   "postalCode": 729826,
-   "tags": "local"
+   "tags": "local",
+   "address": "80, MANDAI LAKE ROAD -, SINGAPORE ZOOLOGICAL GARDEN, 729826 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 21,
    "name": "126 CONNECTION BAKERY",
-   "roadNumber": "45",
-   "roadName": "OWEN ROAD",
-   "unitNumber": "01-297",
-   "buildingName": "-",
-   "postalCode": 210045,
-   "tags": "local"
+   "tags": "local",
+   "address": "45, OWEN ROAD 01-297, -, 210045 Singapore",
+   "latitude": "1.315210",
+   "longitude": "103.851720"
  },
  {
+   "id": 22,
    "name": "13 MILES",
-   "roadNumber": "596B",
-   "roadName": "SEMBAWANG ROAD",
-   "unitNumber": "-",
-   "buildingName": "-",
-   "postalCode": 758455,
-   "tags": ""
+   "tags": "",
+   "address": "596B, SEMBAWANG ROAD -, -, 758455 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 23,
    "name": "149 Cafe@TechnipFMC",
-   "roadNumber": "149",
-   "roadName": "GUL CIRCLE",
-   "unitNumber": "2",
-   "buildingName": "-",
-   "postalCode": 629605,
-   "tags": ""
+   "tags": "",
+   "address": "149, GUL CIRCLE 2, -, 629605 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 24,
    "name": "1983 A Taste of Nanyang",
-   "roadNumber": "E1",
-   "roadName": "WOODLANDS AVENUE 9",
-   "unitNumber": "02-10",
-   "buildingName": "-",
-   "postalCode": 738964,
-   "tags": ""
+   "tags": "",
+   "address": "E1, WOODLANDS AVENUE 9 02-10, -, 738964 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 25,
    "name": "1983 A Taste of Nanyang",
-   "roadNumber": "2",
-   "roadName": "Ang Mo Kio Drive",
-   "unitNumber": "01-21",
-   "buildingName": "-",
-   "postalCode": 567720,
-   "tags": ""
+   "tags": "",
+   "address": "2, Ang Mo Kio Drive 01-21, -, 567720 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 26,
    "name": "1983 A Taste of Nanyang",
-   "roadNumber": "70",
-   "roadName": "STAMFORD ROAD",
-   "unitNumber": "026-018-09",
-   "buildingName": "-",
-   "postalCode": 178901,
-   "tags": ""
+   "tags": "",
+   "address": "70, STAMFORD ROAD 026-018-09, -, 178901 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 27,
    "name": "1983 Cafe Nanyang",
-   "roadNumber": "60",
-   "roadName": "AIRPORT BOULEVARD",
-   "unitNumber": "02-21",
-   "buildingName": "-",
-   "postalCode": 819643,
-   "tags": ""
+   "tags": "",
+   "address": "60, AIRPORT BOULEVARD 02-21, -, 819643 Singapore",
+   "latitude": "1.3531954066666700",
+   "longitude": "103.98831812666700"
  },
  {
+   "id": 28,
    "name": "1983 Coffee & Toast",
-   "roadNumber": "1",
-   "roadName": "MARITIME SQUARE",
-   "unitNumber": "01-01",
-   "buildingName": "-",
-   "postalCode": 99253,
-   "tags": ""
+   "tags": "",
+   "address": "1, MARITIME SQUARE 01-01, -, 99253 Singapore",
+   "latitude": "1.264260",
+   "longitude": "103.819740"
  },
  {
+   "id": 29,
    "name": "1983 Coffee&Toast",
-   "roadNumber": "",
-   "roadName": "1 Jurong East Street 21",
-   "unitNumber": "02-32/33",
-   "buildingName": "-",
-   "postalCode": 609606,
-   "tags": ""
+   "tags": "",
+   "address": "nan, 1 Jurong East Street 21 02-32/33, -, 609606 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 30,
    "name": "1983 Coffee & Toast",
-   "roadNumber": "1",
-   "roadName": "JOO KOON CIRCLE",
-   "unitNumber": "02-21",
-   "buildingName": "-",
-   "postalCode": 629117,
-   "tags": ""
+   "tags": "",
+   "address": "1, JOO KOON CIRCLE 02-21, -, 629117 Singapore",
+   "latitude": "1.3267853666666700",
+   "longitude": "103.67846991666700"
  },
  {
+   "id": 31,
    "name": "1983 Coffee & Toast",
-   "roadNumber": "1",
-   "roadName": "MARITIME SQUARE",
-   "unitNumber": "01-09/10",
-   "buildingName": "-",
-   "postalCode": 99253,
-   "tags": ""
+   "tags": "",
+   "address": "1, MARITIME SQUARE 01-09/10, -, 99253 Singapore",
+   "latitude": "1.264260",
+   "longitude": "103.819740"
  },
  {
+   "id": 32,
    "name": "1983 Coffee & Toast",
-   "roadNumber": "2",
-   "roadName": "SIMEI STREET 3",
-   "unitNumber": "1",
-   "buildingName": "-",
-   "postalCode": 529889,
-   "tags": ""
+   "tags": "",
+   "address": "2, SIMEI STREET 3 1, -, 529889 Singapore",
+   "latitude": "1.3408630000000000",
+   "longitude": "103.83039182212100"
  },
  {
+   "id": 33,
    "name": "21 On Rajah",
-   "roadNumber": "1",
-   "roadName": "JALAN RAJAH",
-   "unitNumber": "01-15a",
-   "buildingName": "-",
-   "postalCode": 329133,
-   "tags": ""
+   "tags": "",
+   "address": "1, JALAN RAJAH 01-15a, -, 329133 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 34,
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": "50",
-   "roadName": "Jurong Gateway Road",
-   "unitNumber": "01-32",
-   "buildingName": "-",
-   "postalCode": 608549,
-   "tags": ""
+   "tags": "",
+   "address": "50, Jurong Gateway Road 01-32, -, 608549 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 35,
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": "9",
-   "roadName": "BISHAN PLACE",
-   "unitNumber": "01-32",
-   "buildingName": "-",
-   "postalCode": 150120,
-   "tags": ""
+   "tags": "",
+   "address": "9, BISHAN PLACE 01-32, -, 150120 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 36,
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": "930",
-   "roadName": "Yishun Avenue 2",
-   "unitNumber": "01-15",
-   "buildingName": "-",
-   "postalCode": 819643,
-   "tags": ""
+   "tags": "",
+   "address": "930, Yishun Avenue 2 01-15, -, 819643 Singapore",
+   "latitude": "1.3531954066666700",
+   "longitude": "103.98831812666700"
  },
  {
+   "id": 37,
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": "277",
-   "roadName": "ORCHARD ROAD",
-   "unitNumber": "01-04/05",
-   "buildingName": "-",
-   "postalCode": 524201,
-   "tags": ""
+   "tags": "",
+   "address": "277, ORCHARD ROAD 01-04/05, -, 524201 Singapore",
+   "latitude": "1.3523302",
+   "longitude": "103.9534923"
  },
  {
+   "id": 38,
    "name": "4 Fingers Crispy Chicken",
-   "roadNumber": "6",
-   "roadName": "RAFFLES BOULEVARD",
-   "unitNumber": "02-183A",
-   "buildingName": "-",
-   "postalCode": 599746,
-   "tags": ""
+   "tags": "",
+   "address": "6, RAFFLES BOULEVARD 02-183A, -, 599746 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 39,
    "name": "AJ Delights",
-   "roadNumber": "120",
-   "roadName": "BUKIT MERAH LANE 1",
-   "unitNumber": "01-82883",
-   "buildingName": "ALEXANDRA VILLAGE FOOD CENTER ",
-   "postalCode": 650155,
-   "tags": ""
+   "tags": "",
+   "address": "120, BUKIT MERAH LANE 1 01-82883, ALEXANDRA VILLAGE FOOD CENTER , 650155 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 40,
    "name": "Ajuma Japanese&Korean CuisineR10)@Staff Canteen By Kopitiam",
-   "roadNumber": "60",
-   "roadName": "AIRPORT BOULEVARD",
-   "unitNumber": "3M-10",
-   "buildingName": "CHANGI AIRPORT TERMINAL 2 ",
-   "postalCode": 650177,
-   "tags": ""
+   "tags": "",
+   "address": "60, AIRPORT BOULEVARD 3M-10, CHANGI AIRPORT TERMINAL 2 , 650177 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 41,
    "name": "Changi Airport Terminal 2",
-   "roadNumber": "",
-   "roadName": "TAMPINES STREET 21",
-   "unitNumber": "01-1155",
-   "buildingName": "-",
-   "postalCode": 670257,
-   "tags": ""
+   "tags": "",
+   "address": "nan, TAMPINES STREET 21 01-1155, -, 670257 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 42,
    "name": "AL AZHAR",
-   "roadNumber": "201D",
-   "roadName": "CHEONG CHIN NAM ROAD",
-   "unitNumber": "- ",
-   "buildingName": "-",
-   "postalCode": 730167,
-   "tags": ""
+   "tags": "",
+   "address": "201D, CHEONG CHIN NAM ROAD - , -, 730167 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 43,
    "name": "AL AZHAR",
-   "roadNumber": "11/12",
-   "roadName": "Bukit Batok St 11",
-   "unitNumber": "01-324",
-   "buildingName": "-",
-   "postalCode": 673635,
-   "tags": ""
+   "tags": "",
+   "address": "11/12, Bukit Batok St 11 01-324, -, 673635 Singapore",
+   "latitude": "1.385730",
+   "longitude": "103.761250"
  },
  {
+   "id": 44,
    "name": "AL MADINA Famous Prata Corner",
-   "roadNumber": "155",
-   "roadName": "Bukit Batok West Ave 8",
-   "unitNumber": "01-247",
-   "buildingName": "-",
-   "postalCode": 556083,
-   "tags": ""
+   "tags": "",
+   "address": "155, Bukit Batok West Ave 8 01-247, -, 556083 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 45,
    "name": "AL MADINA Famous Prata Corner",
-   "roadNumber": "177",
-   "roadName": "Bangkit Road Bukit Panjang New",
-   "unitNumber": "01-61",
-   "buildingName": "ZHENGHUA 257 COFFEE HOUSE ",
-   "postalCode": 556083,
-   "tags": ""
+   "tags": "",
+   "address": "177, Bangkit Road Bukit Panjang New 01-61, ZHENGHUA 257 COFFEE HOUSE , 556083 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 46,
    "name": "AL MADINA Famous Prata Corner",
-   "roadNumber": "257",
-   "roadName": "Town",
-   "unitNumber": "01-07",
-   "buildingName": "-",
-   "postalCode": 671524,
-   "tags": ""
+   "tags": "",
+   "address": "257, Town 01-07, -, 671524 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 47,
    "name": "AL MADINA Famous Prata Corner",
-   "roadNumber": "167",
-   "roadName": "Woodlands St 11",
-   "unitNumber": "01-01",
-   "buildingName": "-",
-   "postalCode": 730131,
-   "tags": ""
+   "tags": "",
+   "address": "167, Woodlands St 11 01-01, -, 730131 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 48,
    "name": "AL MADINA Famous Prata Corner",
-   "roadNumber": "635c",
-   "roadName": "Senja Road",
-   "unitNumber": "82-49",
-   "buildingName": "-",
-   "postalCode": 510444,
-   "tags": ""
+   "tags": "",
+   "address": "635c, Senja Road 82-49, -, 510444 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 49,
    "name": "ALL GOOD GOURMET",
-   "roadNumber": "23",
-   "roadName": "SERANGOON CENTRAL",
-   "unitNumber": "82-49",
-   "buildingName": "NEX",
-   "postalCode": 523878,
-   "tags": ""
+   "tags": "",
+   "address": "23, SERANGOON CENTRAL 82-49, NEX, 523878 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 50,
    "name": "ALL GOOD GOURMET",
-   "roadNumber": "23",
-   "roadName": "SERANGOON CENTRAL",
-   "unitNumber": "02-03/04",
-   "buildingName": "NEX",
-   "postalCode": 730573,
-   "tags": ""
+   "tags": "",
+   "address": "23, SERANGOON CENTRAL 02-03/04, NEX, 730573 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 51,
    "name": "AMETHYST PASTRY & CAKES",
-   "roadNumber": "524a",
-   "roadName": "JELAPANG ROAD",
-   "unitNumber": "01-206",
-   "buildingName": "GREENRIDGE SHOPPING CENTER ",
-   "postalCode": 380005,
-   "tags": ""
+   "tags": "",
+   "address": "524a, JELAPANG ROAD 01-206, GREENRIDGE SHOPPING CENTER , 380005 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 52,
    "name": "Amigo's Food Pte Ltd",
-   "roadNumber": "131",
-   "roadName": "MARSILING RISE",
-   "unitNumber": "01-102",
-   "buildingName": "-",
-   "postalCode": 427585,
-   "tags": ""
+   "tags": "",
+   "address": "131, MARSILING RISE 01-102, -, 427585 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 53,
    "name": "Amigo's Food Pte Ltd",
-   "roadNumber": "444",
-   "roadName": "PASIR RIS DRIVE 6",
-   "unitNumber": "01-66",
-   "buildingName": "-",
-   "postalCode": 380202,
-   "tags": ""
+   "tags": "",
+   "address": "444, PASIR RIS DRIVE 6 01-66, -, 380202 Singapore",
+   "latitude": "1.320610",
+   "longitude": "103.886930"
  },
  {
+   "id": 54,
    "name": "Amigo's Food Pte Ltd",
-   "roadNumber": "878c",
-   "roadName": "TAMPINES AVENUE 8",
-   "unitNumber": "01-01",
-   "buildingName": "-",
-   "postalCode": 427585,
-   "tags": ""
+   "tags": "",
+   "address": "878c, TAMPINES AVENUE 8 01-01, -, 427585 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 55,
    "name": "Amigo's Food Pte Ltd",
-   "roadNumber": "573",
-   "roadName": "WOODLAND DRIVE 16",
-   "unitNumber": "01-22",
-   "buildingName": "-",
-   "postalCode": 500005,
-   "tags": ""
+   "tags": "",
+   "address": "573, WOODLAND DRIVE 16 01-22, -, 500005 Singapore",
+   "latitude": "1.38885339963623",
+   "longitude": "103.986845986484"
  },
  {
+   "id": 56,
    "name": "Amigo's Food Pte Ltd",
-   "roadNumber": "5",
-   "roadName": "UPPER BOON KENG ROAD",
-   "unitNumber": "01-01",
-   "buildingName": "MULTI STOREY CAR PARK",
-   "postalCode": 819665,
-   "tags": ""
+   "tags": "",
+   "address": "5, UPPER BOON KENG ROAD 01-01, MULTI STOREY CAR PARK, 819665 Singapore",
+   "latitude": "1.3395912666666700",
+   "longitude": "103.98407606666700"
  },
  {
+   "id": 57,
    "name": "ANDES",
-   "roadNumber": "328",
-   "roadName": "Joo Chiat Road",
-   "unitNumber": "01-2001",
-   "buildingName": "JOO CHIAT APARTMENTS ",
-   "postalCode": 519599,
-   "tags": ""
+   "tags": "",
+   "address": "328, Joo Chiat Road 01-2001, JOO CHIAT APARTMENTS , 519599 Singapore",
+   "latitude": "1.3773282153846200",
+   "longitude": "103.95499696153800"
  },
  {
+   "id": 58,
    "name": "ANDES",
-   "roadNumber": "5",
-   "roadName": "CHANGI VILLAGE ROAD",
-   "unitNumber": "02-202",
-   "buildingName": "- ",
-   "postalCode": 500005,
-   "tags": ""
+   "tags": "",
+   "address": "5, CHANGI VILLAGE ROAD 02-202, - , 500005 Singapore",
+   "latitude": "1.38885339963623",
+   "longitude": "103.986845986484"
  },
  {
+   "id": 59,
    "name": "ANDES",
-   "roadNumber": "10",
-   "roadName": "Airport Boulevard",
-   "unitNumber": "02-325",
-   "buildingName": "CHANGI AIRPORT TERMINAL 4 ",
-   "postalCode": 819665,
-   "tags": ""
+   "tags": "",
+   "address": "10, Airport Boulevard 02-325, CHANGI AIRPORT TERMINAL 4 , 819665 Singapore",
+   "latitude": "1.3395912666666700",
+   "longitude": "103.98407606666700"
  },
  {
+   "id": 60,
    "name": "ANDES",
-   "roadNumber": "750",
-   "roadName": "Chai Chee Road",
-   "unitNumber": "01-30",
-   "buildingName": "Technopark@Chai Chee",
-   "postalCode": 469000,
-   "tags": ""
+   "tags": "",
+   "address": "750, Chai Chee Road 01-30, Technopark@Chai Chee, 469000 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 61,
    "name": "A-Po Hokkien Mee (MR1)@The Food Market Century Square",
-   "roadNumber": "2",
-   "roadName": "TAMPINES CENTRAL 5",
-   "unitNumber": "03-19",
-   "buildingName": "CENTURY SQUARE",
-   "postalCode": 529509,
-   "tags": ""
+   "tags": "",
+   "address": "2, TAMPINES CENTRAL 5 03-19, CENTURY SQUARE, 529509 Singapore",
+   "latitude": "1.3408630000000000",
+   "longitude": "103.83039182212100"
  },
  {
+   "id": 62,
    "name": "A-POH KITCHEN PTE LTD",
-   "roadNumber": "354",
-   "roadName": "CLEMENTI AVENUE 2",
-   "unitNumber": "01-223",
-   "buildingName": "CLEMENTI AVENUE 2 SHOPPING center ",
-   "postalCode": 120354,
-   "tags": ""
+   "tags": "",
+   "address": "354, CLEMENTI AVENUE 2 01-223, CLEMENTI AVENUE 2 SHOPPING center , 120354 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 63,
    "name": "ARIFF'S RESTAURANT",
-   "roadNumber": "71",
-   "roadName": "KALLANG BAHRU",
-   "unitNumber": "01-529B",
-   "buildingName": "-",
-   "postalCode": 330071,
-   "tags": ""
+   "tags": "",
+   "address": "71, KALLANG BAHRU 01-529B, -, 330071 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 64,
    "name": "ARIFF'S RESTAURANT",
-   "roadNumber": "278",
-   "roadName": "BUKIT BATOK EAST AVE 3",
-   "unitNumber": "01-365",
-   "buildingName": "- ",
-   "postalCode": 650278,
-   "tags": ""
+   "tags": "",
+   "address": "278, BUKIT BATOK EAST AVE 3 01-365, - , 650278 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 65,
    "name": "Amold's Fried Chicken (S)Pte Ltd",
-   "roadNumber": "21",
-   "roadName": "HOUGANG STREET 51",
-   "unitNumber": "01-49",
-   "buildingName": "HOUGANG GREEN SHOPPING MALL",
-   "postalCode": 538719,
-   "tags": ""
+   "tags": "",
+   "address": "21, HOUGANG STREET 51 01-49, HOUGANG GREEN SHOPPING MALL, 538719 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 66,
    "name": "Arnold's Fried Chicken (S)Pte Ltd",
-   "roadNumber": "60",
-   "roadName": "JURONG WEST CENTRAL 3",
-   "unitNumber": "01-05",
-   "buildingName": "The Frontier CC",
-   "postalCode": 648346,
-   "tags": ""
+   "tags": "",
+   "address": "60, JURONG WEST CENTRAL 3 01-05, The Frontier CC, 648346 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 67,
    "name": "Arnold's Fried Chicken(S)Pte Ltd",
-   "roadNumber": "51",
-   "roadName": "YISHUN CENTRAL 1",
-   "unitNumber": "01-04",
-   "buildingName": "YISHUN 10 CINEMA CINEPLEX",
-   "postalCode": 768794,
-   "tags": ""
+   "tags": "",
+   "address": "51, YISHUN CENTRAL 1 01-04, YISHUN 10 CINEMA CINEPLEX, 768794 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 68,
    "name": "Amold's Fried Chicken (S)Pte Ltd",
-   "roadNumber": "810",
-   "roadName": "GEYLANG ROAD",
-   "unitNumber": "02-99/101",
-   "buildingName": "CITY PLAZA",
-   "postalCode": 409286,
-   "tags": ""
+   "tags": "",
+   "address": "810, GEYLANG ROAD 02-99/101, CITY PLAZA, 409286 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 69,
    "name": "Amold's Fried Chicken(S)Pte Ltd",
-   "roadNumber": "215",
-   "roadName": "BEDOK NORTH STREET 1",
-   "unitNumber": "01-83",
-   "buildingName": "- ",
-   "postalCode": 460215,
-   "tags": ""
+   "tags": "",
+   "address": "215, BEDOK NORTH STREET 1 01-83, - , 460215 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 70,
    "name": "AROMA KAMPUNG PTE LTD",
-   "roadNumber": "2",
-   "roadName": "JOO CHIAT ROAD",
-   "unitNumber": "03-1111",
-   "buildingName": "JOO CHIAT COMPLEX",
-   "postalCode": 420002,
-   "tags": ""
+   "tags": "",
+   "address": "2, JOO CHIAT ROAD 03-1111, JOO CHIAT COMPLEX, 420002 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 71,
    "name": "ArtBites TRCC",
-   "roadNumber": "5",
-   "roadName": "WOODLANDS AVENUE 9",
-   "unitNumber": "01-01",
-   "buildingName": "REPUBLIC POLYTECHNIC",
-   "postalCode": 738962,
-   "tags": ""
+   "tags": "",
+   "address": "5, WOODLANDS AVENUE 9 01-01, REPUBLIC POLYTECHNIC, 738962 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 72,
    "name": "ASAM TREE CAFE,BAKERY &.      RESTAURANT",
-   "roadNumber": "712",
-   "roadName": "ANG MO KIO AVENUE 6",
-   "unitNumber": "01-4056",
-   "buildingName": "- ",
-   "postalCode": 560712,
-   "tags": ""
+   "tags": "",
+   "address": "712, ANG MO KIO AVENUE 6 01-4056, - , 560712 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 73,
    "name": "Asam Tree Malay Cuisine(S5)@",
-   "roadNumber": "90",
-   "roadName": "Yishun Central",
-   "unitNumber": "01-12",
-   "buildingName": "Khoo Teck Puat Hospital",
-   "postalCode": 768828,
-   "tags": ""
+   "tags": "",
+   "address": "90, Yishun Central 01-12, Khoo Teck Puat Hospital, 768828 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 74,
    "name": "NTUC Foodfare KTPH",
-   "roadNumber": "100",
-   "roadName": "HOUGANG AVENUE 10",
-   "unitNumber": "01-03",
-   "buildingName": "KANG KAR MALL",
-   "postalCode": 538767,
-   "tags": ""
+   "tags": "",
+   "address": "100, HOUGANG AVENUE 10 01-03, KANG KAR MALL, 538767 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 75,
    "name": "ASAM TREE SNACK & NASI LEMAK",
-   "roadNumber": "25",
-   "roadName": "SCOTTS ROAD",
-   "unitNumber": "－",
-   "buildingName": "SCOTTSWALK",
-   "postalCode": 228220,
-   "tags": ""
+   "tags": "",
+   "address": "25, SCOTTS ROAD －, SCOTTSWALK, 228220 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 76,
    "name": "ASIAN COUNTER@CAROUSEL",
-   "roadNumber": "21",
-   "roadName": "Tampines Ave 1",
-   "unitNumber": "01-00",
-   "buildingName": "Temasek Polytechnic(Blk 23A)",
-   "postalCode": 529757,
-   "tags": ""
+   "tags": "",
+   "address": "21, Tampines Ave 1 01-00, Temasek Polytechnic(Blk 23A), 529757 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 77,
    "name": "ASIAN DELIGHT(S4)@FLAVOURS BY HESED&EMET",
-   "roadNumber": "6",
-   "roadName": "RAFFLES BOULEVARD",
-   "unitNumber": "4",
-   "buildingName": "MARINA SQUARE",
-   "postalCode": 39594,
-   "tags": ""
+   "tags": "",
+   "address": "6, RAFFLES BOULEVARD 4, MARINA SQUARE, 39594 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 78,
    "name": "ASIAN DELIGHTS@AQUAMARINE",
-   "roadNumber": "2",
-   "roadName": "STAMFORD ROAD",
-   "unitNumber": "－",
-   "buildingName": "FAIRMONT SINGAPORE &",
-   "postalCode": 178882,
-   "tags": ""
+   "tags": "",
+   "address": "2, STAMFORD ROAD －, FAIRMONT SINGAPORE &, 178882 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 79,
    "name": "ASIAN FOOD CORNER@AMC",
-   "roadNumber": "1",
-   "roadName": "GEYLANG SERAI",
-   "unitNumber": "01-210",
-   "buildingName": "SWISSOTEL THE STAMFORD",
-   "postalCode": 402001,
-   "tags": ""
+   "tags": "",
+   "address": "1, GEYLANG SERAI 01-210, SWISSOTEL THE STAMFORD, 402001 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 80,
    "name": "Australia Design Westem Food （S2)@Mr Teh Tarik Geylang Serai",
-   "roadNumber": "1",
-   "roadName": "Choa Chu Kang Grove",
-   "unitNumber": "03-05",
-   "buildingName": "-",
-   "postalCode": 688236,
-   "tags": ""
+   "tags": "",
+   "address": "1, Choa Chu Kang Grove 03-05, -, 688236 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 81,
    "name": "Awal Western and Thai Steamboat",
-   "roadNumber": "60",
-   "roadName": "PASIR RIS DRIVE 3",
-   "unitNumber": "1",
-   "buildingName": "ARANDA COUNTRY CLUB",
-   "postalCode": 519497,
-   "tags": ""
+   "tags": "",
+   "address": "60, PASIR RIS DRIVE 3 1, ARANDA COUNTRY CLUB, 519497 Singapore",
+   "latitude": "1.3760934",
+   "longitude": "103.953486"
  },
  {
+   "id": 82,
    "name": "Ayam Bakar Ojolali",
-   "roadNumber": "304",
-   "roadName": "ORCHARD ROAD",
-   "unitNumber": "03-39",
-   "buildingName": "LUCKY PLAZA",
-   "postalCode": 238863,
-   "tags": ""
+   "tags": "",
+   "address": "304, ORCHARD ROAD 03-39, LUCKY PLAZA, 238863 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 83,
    "name": "Ayam Bakar Ojolali",
-   "roadNumber": "304",
-   "roadName": "ORCHARD ROAD",
-   "unitNumber": "03-43",
-   "buildingName": "LUCKY PLAZA",
-   "postalCode": 238863,
-   "tags": ""
+   "tags": "",
+   "address": "304, ORCHARD ROAD 03-43, LUCKY PLAZA, 238863 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 84,
    "name": "AYAM PENYET",
-   "roadNumber": "676",
-   "roadName": "WOODLANDS DRIVE 71",
-   "unitNumber": "2",
-   "buildingName": "KAMPUNG ADMIRALTY HAWKER center ",
-   "postalCode": 730676,
-   "tags": ""
+   "tags": "",
+   "address": "676, WOODLANDS DRIVE 71 2, KAMPUNG ADMIRALTY HAWKER center , 730676 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 85,
    "name": "AYAM PENYET",
-   "roadNumber": "768",
-   "roadName": "110 Pasir Ris Central",
-   "unitNumber": "01-02",
-   "buildingName": "-",
-   "postalCode": 519641,
-   "tags": ""
+   "tags": "",
+   "address": "768, 110 Pasir Ris Central 01-02, -, 519641 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 86,
    "name": "AYAM PENYET(S5)@FORK AND",
-   "roadNumber": "204",
-   "roadName": "WOODLANDS AVENUE 6",
-   "unitNumber": "1",
-   "buildingName": "WOODLANDS MART ",
-   "postalCode": 730768,
-   "tags": ""
+   "tags": "",
+   "address": "204, WOODLANDS AVENUE 6 1, WOODLANDS MART , 730768 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 87,
    "name": "SPOON WOODLANDS MART",
-   "roadNumber": "17",
-   "roadName": "BEDOK NORTH STREET 1",
-   "unitNumber": "01-435",
-   "buildingName": "- ",
-   "postalCode": 460204,
-   "tags": ""
+   "tags": "",
+   "address": "17, BEDOK NORTH STREET 1 01-435, - , 460204 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 88,
    "name": "Ayam Penyet(S6)@Mr Teh Tarik",
-   "roadNumber": "304",
-   "roadName": "Petir Road",
-   "unitNumber": "B2-57/58",
-   "buildingName": "-",
-   "postalCode": 678278,
-   "tags": ""
+   "tags": "",
+   "address": "304, Petir Road B2-57/58, -, 678278 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 89,
    "name": "Eating House",
-   "roadNumber": "2",
-   "roadName": "ORCHARD ROAD",
-   "unitNumber": "03-36/37",
-   "buildingName": "LUCKY PLAZA",
-   "postalCode": 238863,
-   "tags": ""
+   "tags": "",
+   "address": "2, ORCHARD ROAD 03-36/37, LUCKY PLAZA, 238863 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 90,
    "name": "AYAM PENYET PRESIDENT",
-   "roadNumber": "1",
-   "roadName": "JURONG EAST CENTRAL 1",
-   "unitNumber": "01-05",
-   "buildingName": "JCUBE",
-   "postalCode": 609731,
-   "tags": ""
+   "tags": "",
+   "address": "1, JURONG EAST CENTRAL 1 01-05, JCUBE, 609731 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 91,
    "name": "AYAM PENYET PRESIDENT",
-   "roadNumber": "23",
-   "roadName": "Stadium Place",
-   "unitNumber": "01-23",
-   "buildingName": "-",
-   "postalCode": 397628,
-   "tags": ""
+   "tags": "",
+   "address": "23, Stadium Place 01-23, -, 397628 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 92,
    "name": "AYAM PENYET PRESIDENT",
-   "roadNumber": "2",
-   "roadName": "Serangoon Central 1",
-   "unitNumber": "B1-13/14",
-   "buildingName": "-",
-   "postalCode": 556083,
-   "tags": ""
+   "tags": "",
+   "address": "2, Serangoon Central 1 B1-13/14, -, 556083 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 93,
    "name": "AYAM PENYET PRESIDENT",
-   "roadNumber": "930",
-   "roadName": "TAMPINES CENTRAL 5",
-   "unitNumber": "B1-20",
-   "buildingName": "CENTURY SQUARE ",
-   "postalCode": 529509,
-   "tags": ""
+   "tags": "",
+   "address": "930, TAMPINES CENTRAL 5 B1-20, CENTURY SQUARE , 529509 Singapore",
+   "latitude": "1.3408630000000000",
+   "longitude": "103.83039182212100"
  },
  {
+   "id": 94,
    "name": "AYAM PENYET PRESIDENT",
-   "roadNumber": "728",
-   "roadName": "YISHUN AVENUE 2",
-   "unitNumber": "B1-54",
-   "buildingName": "NORTHPOINT ",
-   "postalCode": 769098,
-   "tags": ""
+   "tags": "",
+   "address": "728, YISHUN AVENUE 2 B1-54, NORTHPOINT , 769098 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 95,
    "name": "AYAM PENYET PRESIDENT",
-   "roadNumber": "1000",
-   "roadName": "ANG MO KIO AVENUE 6",
-   "unitNumber": "01-4200",
-   "buildingName": "- MARINE COVE ",
-   "postalCode": 560728,
-   "tags": ""
+   "tags": "",
+   "address": "1000, ANG MO KIO AVENUE 6 01-4200, - MARINE COVE , 560728 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 96,
    "name": "AYAM PENYET PRESIDENT",
-   "roadNumber": "321",
-   "roadName": "EAST COAST PARKWAY",
-   "unitNumber": "01-02",
-   "buildingName": "PARKWAY EAST HOSPITAL ",
-   "postalCode": 449876,
-   "tags": ""
+   "tags": "",
+   "address": "321, EAST COAST PARKWAY 01-02, PARKWAY EAST HOSPITAL , 449876 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  },
  {
+   "id": 97,
    "name": "AYAM PENYET UNCLE PENYET",
-   "roadNumber": "276/278",
-   "roadName": "JOO CHIAT PLACE",
-   "unitNumber": "01-10",
-   "buildingName": "-",
-   "postalCode": 427990,
-   "tags": ""
+   "tags": "",
+   "address": "276/278, JOO CHIAT PLACE 01-10, -, 427990 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 98,
    "name": "BABALICIOUS",
-   "roadNumber": "26",
-   "roadName": "CHANGI ROAD",
-   "unitNumber": "－",
-   "buildingName": "-",
-   "postalCode": 419756,
-   "tags": ""
+   "tags": "",
+   "address": "26, CHANGI ROAD －, -, 419756 Singapore",
+   "latitude": "14.4848138",
+   "longitude": "121.0232316"
  },
  {
+   "id": 99,
    "name": "Bagus",
-   "roadNumber": "1",
-   "roadName": "SENTOSA GATEWAY",
-   "unitNumber": "B1-133",
-   "buildingName": "THE COMMERZE ",
-   "postalCode": 98138,
-   "tags": ""
+   "tags": "",
+   "address": "1, SENTOSA GATEWAY B1-133, THE COMMERZE , 98138 Singapore",
+   "latitude": "1.25721033504858",
+   "longitude": "103.82155731204"
  },
  {
+   "id": 100,
    "name": "Bagus",
-   "roadNumber": "41",
-   "roadName": "IRVING PLACE",
-   "unitNumber": "02-04",
-   "buildingName": "-",
-   "postalCode": 369546,
-   "tags": ""
- },
- {
-   "name": "",
-   "roadNumber": "",
-   "roadName": "Bukit Panjang Ring Road",
-   "unitNumber": "-",
-   "buildingName": "SPC PETROL STATION",
-   "postalCode": 679945,
-   "tags": ""
+   "tags": "",
+   "address": "41, IRVING PLACE 02-04, -, 369546 Singapore",
+   "latitude": "1.357107",
+   "longitude": "103.8194992"
  }
 ]

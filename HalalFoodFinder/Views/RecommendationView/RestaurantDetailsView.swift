@@ -10,9 +10,9 @@ import CoreLocation
 
 struct RestaurantDetailsView: View {
     
-    var data: restaurant
+    @State var data: Restaurant
     @State var locationCoordinate: [Double] = []
-    @StateObject private var mapAPI = MapAPI()
+    @State var coordinates: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 0, longitude: 0)
     
     var body: some View {
         
@@ -37,8 +37,6 @@ struct RestaurantDetailsView: View {
                             
                             Spacer()
                             
-                            Text("\(mapAPI.distance.formatted(.number.precision(.fractionLength(0))))m")
-                                .foregroundColor(.white)
                         }
                         
                         
@@ -58,10 +56,11 @@ struct RestaurantDetailsView: View {
                         .font(.headline)
                         .padding(.top, 20)
                     
-                    MapView(address: data.getAddress())
+                    MapView(address: data.address)
                         .frame(height: 200)
                     
-                    Text("\(data.roadName), \(data.postalCode)".capitalized)
+                    
+                    Text(data.address.capitalized)
                         .font(.caption)
                         .foregroundColor(.blue)
                         .underline()
@@ -74,13 +73,29 @@ struct RestaurantDetailsView: View {
             }
             
         }.onAppear {
-            mapAPI.getLocation(address: data.getAddress(), delta: 0.0025)
+            
+            self.getLocation(from: data.address) { coordinate in
+                print("H\(coordinate)")
+            }
+            
         }
     }
+    
+    func getLocation(from address: String, completion: @escaping (_ location: CLLocationCoordinate2D?)-> Void) {
+            let geocoder = CLGeocoder()
+            geocoder.geocodeAddressString(address) { (placemarks, error) in
+                guard let placemarks = placemarks,
+                let location = placemarks.first?.location?.coordinate else {
+                    completion(nil)
+                    return
+                }
+                completion(location)
+            }
+        }
 }
 
 struct RestaurantDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        RestaurantDetailsView(data: restaurant(name: "7 Star Restaurant (Indian/Malay Food)", roadNumber: "768", roadName: "UPPER SERANGOON ROAD", unitNumber: "02-03", buildingName: "-", postalCode: 534636, tags: "indian"))
+        RestaurantDetailsView(data: Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500"))
     }
 }

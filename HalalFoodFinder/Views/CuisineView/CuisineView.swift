@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CuisineView: View {
     
-    @State var datas: [restaurant]
+    @State var datas: [Restaurant]
     var tag: String
     
     var body: some View {
@@ -44,7 +44,7 @@ struct CuisineView: View {
                             RestaurantDetailsView(data: data)
                         } label: {
                             VStack {
-                                RestaurantFilteredMemberView(name: data.name, postalCode: data.postalCode, roadName: data.roadName, data: data)
+                                RestaurantFilteredMemberView(name: data.name, address: data.address, data: data)
                                 
                                 Divider()
                             }
@@ -66,7 +66,7 @@ struct CuisineView: View {
 
 struct CuisineView_Previews: PreviewProvider {
     static var previews: some View {
-        CuisineView(datas: [restaurant(name: "try", roadName: "testing", unitNumber: "testing", buildingName: "testingtesting", postalCode: 123431, tags: "testing"),restaurant(name: "try2", roadName: "testing2", unitNumber: "testing2", buildingName: "testingtesting2", postalCode: 123432, tags: "testing2"), restaurant(name: "try3", roadName: "testing3", unitNumber: "testing3", buildingName: "testingtesting3", postalCode: 123433, tags: "testing3")], tag: "test")
+        CuisineView(datas: [Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500"), Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500"), Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500")], tag: "western")
         CuisineView(datas: [], tag: "test")
     }
 }

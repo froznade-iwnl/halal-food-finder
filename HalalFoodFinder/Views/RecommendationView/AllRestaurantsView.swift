@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct AllRestaurantsView: View {
-    @State var datas: [restaurant]
-    @State var searchedData: [restaurant] = []
+    @State var datas: [Restaurant]
+    @State var searchedData: [Restaurant] = []
     @State private var key = ""
     
     
@@ -24,7 +24,7 @@ struct AllRestaurantsView: View {
                             NavigationLink {
                                 RestaurantDetailsView(data: data)
                             } label: {
-                                RestaurantFilteredMemberView(name: data.name, postalCode: data.postalCode, roadName: data.roadName, data: data)
+                                RestaurantFilteredMemberView(name: data.name, address: data.address, data: data)
                             }
                             Divider()
                                 .padding(.top, 2)
@@ -40,7 +40,7 @@ struct AllRestaurantsView: View {
                     NavigationLink {
                         RestaurantDetailsView(data: data)
                     }label:{
-                        RestaurantFilteredMemberView(name: data.name, postalCode: data.postalCode, roadName: data.roadName, data: data)
+                        RestaurantFilteredMemberView(name: data.name, address: data.address, data: data)
                     }
                 }
             }
@@ -56,6 +56,6 @@ struct AllRestaurantsView: View {
 
 struct AllRestaurantsView_Previews: PreviewProvider {
     static var previews: some View {
-        AllRestaurantsView(datas: [restaurant(name: "7 Star Restaurant (Indian/Malay Food)", roadNumber: "768", roadName: "UPPER SERANGOON ROAD", unitNumber: "02-03", buildingName: "-", postalCode: 534636, tags: "indian")])
+        AllRestaurantsView(datas: [Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500")])
     }
 }

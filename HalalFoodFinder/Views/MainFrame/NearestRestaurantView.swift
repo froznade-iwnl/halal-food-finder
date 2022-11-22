@@ -9,7 +9,6 @@ import SwiftUI
 import MapKit
 
 struct NearestRestaurantView: View {
-    @StateObject private var mapAPI = MapAPI()
     @State private var text = ""
        
     var body: some View {
@@ -18,14 +17,6 @@ struct NearestRestaurantView: View {
             .textFieldStyle(.roundedBorder)
             .padding(.horizontal)
          
-         Button("Find address") {
-            mapAPI.getLocation(address: text, delta: 0.0025)
-         }
-         
-         Map(coordinateRegion: $mapAPI.region, annotationItems: mapAPI.locations) { location in
-             MapMarker(coordinate: location.coordinate, tint: Color.bgColor)
-         }
-         .ignoresSafeArea()
       }
     }
 }

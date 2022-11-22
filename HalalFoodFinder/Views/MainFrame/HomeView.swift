@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State var data: [restaurant]
+    @State var data: [Restaurant]
     
     var body: some View {
         NavigationStack {
@@ -51,7 +51,7 @@ struct HomeView: View {
                             NavigationLink {
                                 RestaurantDetailsView(data: data[0])
                             } label: {
-                                LargeBannerView(tag: data[0].tags, name: data[0].name, distance: 50, address: data[0].roadName)
+                                LargeBannerView(tag: data[0].tags, name: data[0].name, distance: 50, address: data[0].address)
                                     .padding(.bottom, 20)
                             }
                             
@@ -99,7 +99,7 @@ struct HomeView: View {
                             
                             //Near Me Part
                             HStack {
-                                Text("Recommendation ✨")
+                                Text("Recommendations ✨")
                                     .font(.title2)
                                     .bold()
                                 
@@ -128,7 +128,7 @@ struct HomeView: View {
                                             NavigationLink {
                                                 RestaurantDetailsView(data: datum)
                                             } label: {
-                                                NearMeView(roadname: datum.roadName, name: datum.name, tag: datum.tags)
+                                                NearMeView(address: datum.address, name: datum.name, tag: datum.tags)
                                             }
                                         }
                                     }else{
@@ -136,7 +136,7 @@ struct HomeView: View {
                                             NavigationLink {
                                                 RestaurantDetailsView(data: datum)
                                             } label: {
-                                                NearMeView(roadname: datum.roadName, name: datum.name, tag: datum.tags)
+                                                NearMeView(address: datum.address, name: datum.name, tag: datum.tags)
                                             }
                                         }
                                     }
@@ -160,6 +160,6 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView(data: [restaurant(name: "7 Star Restaurant (Indian/Malay Food)", roadNumber: "768", roadName: "UPPER SERANGOON ROAD", unitNumber: "02-03", buildingName: "-", postalCode: 534636, tags: "indian")])
+        HomeView(data: [Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500")])
     }
 }

@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct ContentView: View {
     
-    var restaurants = restaurantDataGrabber()
+    @StateObject var restaurants = restaurantDataGrabber()
     
     var body: some View {
         
@@ -26,9 +27,6 @@ struct ContentView: View {
             
         }
         .accentColor(.bgColor)
-        .onAppear {
-            restaurants.grabData()
-        }
         
         
     }

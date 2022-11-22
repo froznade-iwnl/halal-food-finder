@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NearMeView: View {
     
-    var roadname: String
+    var address: String
     var name: String
     var tag: String
  
@@ -31,7 +31,7 @@ struct NearMeView: View {
                 .foregroundColor(.black)
                 .multilineTextAlignment(.leading)
             
-            Text(roadname.capitalized)
+            Text(address.capitalized)
                 .font(.caption)
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.leading)
@@ -52,6 +52,6 @@ struct NearMeView: View {
 
 struct NearMeView_Previews: PreviewProvider {
     static var previews: some View {
-        NearMeView(roadname: "test", name: "RestaurantName", tag: "fusion")
+        NearMeView(address: "test", name: "RestaurantName", tag: "fusion")
     }
 }
