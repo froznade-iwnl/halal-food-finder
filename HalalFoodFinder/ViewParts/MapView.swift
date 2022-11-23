@@ -11,7 +11,7 @@ import MapKit
 struct MapView: View {
     
     @StateObject var mapData = MapData()
-    var address: String
+    var data: Restaurant
     
     var body: some View {
         VStack {
@@ -22,7 +22,7 @@ struct MapView: View {
             
         }
         .onAppear{
-            mapData.getMap(from: address)
+            mapData.getMap(from: data)
         }
         
     }
@@ -31,6 +31,6 @@ struct MapView: View {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(address: "One-North Singapore")
+        MapView(data: Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500"))
     }
 }

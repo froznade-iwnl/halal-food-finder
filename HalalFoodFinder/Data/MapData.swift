@@ -34,14 +34,29 @@ class MapData: ObservableObject {
     
     init() {
         self.location = []
-        self.region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 51.507222, longitude: -0.1275), span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
+        self.region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 1.357107, longitude: 103.8194992), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
     }
     
-    func getMap(from address: String) {
-        getLocation(from: address) { location in
-            if let location = location {
-                self.location.append(Location(coordinate: location))
-                self.region = MKCoordinateRegion(center: location, span: MKCoordinateSpan(latitudeDelta: 0.0025, longitudeDelta: 0.0025))
+    func getMap(from data: Restaurant) {
+        let location = CLLocationCoordinate2D(latitude: Double(data.latitude)!, longitude: Double(data.longitude)!)
+        
+        self.location.append(Location(coordinate: location))
+        self.region = MKCoordinateRegion(center: location, span: MKCoordinateSpan(latitudeDelta: 0.0025, longitudeDelta: 0.0025))
+        
+        print(location)
+    }
+    
+    func getAllData(from restaurants: [Restaurant], address: String) {
+        self.location.removeAll()
+        for restaurant in restaurants {
+            let location = CLLocationCoordinate2D(latitude: Double(restaurant.latitude)!, longitude: Double(restaurant.longitude)!)
+            self.location.append(Location(coordinate: location))
+        }
+        if address == "" {
+            self.region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 1.357107, longitude: 103.8194992), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
+        }else{
+            getLocation(from: address) { location in
+                self.region = MKCoordinateRegion(center: location ?? CLLocationCoordinate2D(latitude: 1.357107, longitude: 103.8194992), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
             }
         }
     }

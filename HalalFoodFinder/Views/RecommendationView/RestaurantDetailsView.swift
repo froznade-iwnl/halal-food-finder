@@ -11,8 +11,7 @@ import CoreLocation
 struct RestaurantDetailsView: View {
     
     @State var data: Restaurant
-    @State var locationCoordinate: [Double] = []
-    @State var coordinates: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 0, longitude: 0)
+    
     
     var body: some View {
         
@@ -56,7 +55,7 @@ struct RestaurantDetailsView: View {
                         .font(.headline)
                         .padding(.top, 20)
                     
-                    MapView(address: data.address)
+                    MapView(data: data)
                         .frame(height: 200)
                     
                     
@@ -72,26 +71,8 @@ struct RestaurantDetailsView: View {
                 
             }
             
-        }.onAppear {
-            
-            self.getLocation(from: data.address) { coordinate in
-                print("H\(coordinate)")
-            }
-            
         }
     }
-    
-    func getLocation(from address: String, completion: @escaping (_ location: CLLocationCoordinate2D?)-> Void) {
-            let geocoder = CLGeocoder()
-            geocoder.geocodeAddressString(address) { (placemarks, error) in
-                guard let placemarks = placemarks,
-                let location = placemarks.first?.location?.coordinate else {
-                    completion(nil)
-                    return
-                }
-                completion(location)
-            }
-        }
 }
 
 struct RestaurantDetailsView_Previews: PreviewProvider {

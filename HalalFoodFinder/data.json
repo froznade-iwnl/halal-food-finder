@@ -4,440 +4,440 @@
    "name": "4 Fingers Crispy Chicken",
    "tags": "western",
    "address": "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore",
-   "latitude": "1.3559270153846200",
-   "longitude": "103.98648331538500"
+   "latitude": "1.35437074082484",
+   "longitude": "103.985169645053"
  },
  {
    "id": 1,
    "name": "4 Fingers Crispy Chicken",
    "tags": "western",
    "address": "80, Airport Boulevard 03-47, Changi Airport Terminal 1, 819642 Singapore",
-   "latitude": "1.3615263625",
-   "longitude": "103.9892155875"
+   "latitude": "1.36217150661173",
+   "longitude": "103.990052390616"
  },
  {
    "id": 2,
    "name": "4 Fingers Crispy Chicken",
    "tags": "western",
    "address": "2, ORCHARD TURN B4-06/06A, ION ORCHARD, 238801 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.30419142102398",
+   "longitude": "103.831510144742"
  },
  {
    "id": 3,
    "name": "4 Fingers Crispy Chicken",
    "tags": "western",
    "address": "68, ORCHARD ROAD B1-07, PLAZA SINGAPURA, 238839 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.30083413030923",
+   "longitude": "103.845072743164"
  },
  {
    "id": 4,
    "name": "4 Fingers Crispy Chicken",
    "tags": "western",
    "address": "1, WOODLANDS SQUARE 01-38/39, CAUSEWAY POINT, 738099 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.43600784474269",
+   "longitude": "103.78568873405"
  },
  {
    "id": 5,
    "name": "4 Fingers Crispy Chicken",
    "tags": "western",
    "address": "10, Tampines Central 1 #01 39/40/K3/K4 -, Tampines 1, 529536 Singapore",
-   "latitude": "1.3408630000000000",
-   "longitude": "103.83039182212100"
+   "latitude": "1.35432321225804",
+   "longitude": "103.945141172369"
  },
  {
    "id": 6,
    "name": "4 Fingers Crispy Chicken",
    "tags": "western",
    "address": "302, Tiong Bahru Road 01-105, Tiong Bahru Plaza, 168732 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.28633177192832",
+   "longitude": "103.827550771424"
  },
  {
    "id": 7,
    "name": "4 Fingers Crispy Chicken",
    "tags": "western",
    "address": "1, JURONG WEST CENTRAL 2 03-34, JURONG POINT SHOPPING CENTRE, 648886 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.33945200436319",
+   "longitude": "103.706685012654"
  },
  {
    "id": 8,
    "name": "498 Yong Tau Foo (S7) @ 7 Stars",
    "tags": "chinese",
    "address": "498, JURONG WEST STREET 41 01-426, -, 640498 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.34833335760515",
+   "longitude": "103.724307319237"
  },
  {
    "id": 9,
    "name": "7 Star Restaurant (Indian/Malay Food)",
    "tags": "indian",
    "address": "768, UPPER SERANGOON ROAD 02-03, -, 534636 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.35423104156605",
+   "longitude": "103.878949285936"
  },
  {
    "id": 10,
    "name": "A Poke Theory",
    "tags": "japanese",
    "address": "27, Boon Tat Street -, -, 69623 Singapore",
-   "latitude": "",
-   "longitude": ""
+   "latitude": "0.0",
+   "longitude": "0.0"
  },
  {
    "id": 11,
    "name": "A Poke Theory",
    "tags": "japanese",
    "address": "1, Lower Kent Ridge Road 02-12, One@Kent Ridge, 119082 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.2935128771923",
+   "longitude": "103.7846855811"
  },
  {
    "id": 12,
    "name": "A Poke Theory",
    "tags": "japanese",
    "address": "nan, 5 Straits View B2-52, Marina One, The heart, 18935 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.29915739776463",
+   "longitude": "103.858020324447"
  },
  {
    "id": 13,
    "name": "A Poke Theory",
    "tags": "japanese",
    "address": "7, Fraser Street 01-36/37, Duo Galleria, 189356 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.29953434891664",
+   "longitude": "103.85840168774"
  },
  {
    "id": 14,
    "name": "A SPOONFUL OF SUGAR",
    "tags": "dessert",
    "address": "4, CHANGI VILLAGE ROAD 01-2072, -, 500004 Singapore",
-   "latitude": "1.38908",
-   "longitude": "103.98745"
+   "latitude": "1.38909635615366",
+   "longitude": "103.98746284567"
  },
  {
    "id": 15,
    "name": "A1 AZEE WESTERN FOOD (S7) @ SOON HONG EATING HOUSE (A'POSH BIZHUB)",
    "tags": "western",
    "address": "1, Yishun Industrial Street 1 01-12, A'posh Bizhub, 768160 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.43732110123747",
+   "longitude": "103.842085763701"
  },
  {
    "id": 16,
    "name": "Adam Chicken",
    "tags": "western",
    "address": "503, WEST COAST DRIVE 01-28, Ayer Rajah Food Centre, 120503 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.31180308926424",
+   "longitude": "103.759751405542"
  },
  {
    "id": 17,
    "name": "AH HUAT",
    "tags": "drinks",
    "address": "2, BUKIT BATOK WEST AVENUE 7 01-09C, HOMETEAM NS, 659003 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.36577391240463",
+   "longitude": "103.748520902563"
  },
  {
    "id": 18,
    "name": "Ah Meng Bistro",
    "tags": "local",
    "address": "80, Mandai Lake Road -, Singapore Zoological Restaurant, 729826 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.40290356862274",
+   "longitude": "103.789577205267"
  },
  {
    "id": 19,
    "name": "Ah Meng Kitchen",
    "tags": "local",
    "address": "80, Mandai Lake Road -, SINGAPORE ZOOLOGICAL GARDEN, 729826 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.40290356862274",
+   "longitude": "103.789577205267"
  },
  {
    "id": 20,
    "name": "Ah Meng Restaurant",
    "tags": "local",
    "address": "80, MANDAI LAKE ROAD -, SINGAPORE ZOOLOGICAL GARDEN, 729826 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.40290356862274",
+   "longitude": "103.789577205267"
  },
  {
    "id": 21,
    "name": "126 CONNECTION BAKERY",
    "tags": "local",
    "address": "45, OWEN ROAD 01-297, -, 210045 Singapore",
-   "latitude": "1.315210",
-   "longitude": "103.851720"
+   "latitude": "1.31559567579803",
+   "longitude": "103.850825476141"
  },
  {
    "id": 22,
    "name": "13 MILES",
    "tags": "",
    "address": "596B, SEMBAWANG ROAD -, -, 758455 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.44082356558314",
+   "longitude": "103.824894779277"
  },
  {
    "id": 23,
    "name": "149 Cafe@TechnipFMC",
    "tags": "",
    "address": "149, GUL CIRCLE 2, -, 629605 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.32157984271668",
+   "longitude": "103.672141029659"
  },
  {
    "id": 24,
    "name": "1983 A Taste of Nanyang",
    "tags": "",
    "address": "E1, WOODLANDS AVENUE 9 02-10, -, 738964 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.44378204421843",
+   "longitude": "103.784318833308"
  },
  {
    "id": 25,
    "name": "1983 A Taste of Nanyang",
    "tags": "",
    "address": "2, Ang Mo Kio Drive 01-21, -, 567720 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.37789204076074",
+   "longitude": "103.856411982029"
  },
  {
    "id": 26,
    "name": "1983 A Taste of Nanyang",
    "tags": "",
    "address": "70, STAMFORD ROAD 026-018-09, -, 178901 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.29665678939294",
+   "longitude": "103.850105814673"
  },
  {
    "id": 27,
    "name": "1983 Cafe Nanyang",
    "tags": "",
    "address": "60, AIRPORT BOULEVARD 02-21, -, 819643 Singapore",
-   "latitude": "1.3531954066666700",
-   "longitude": "103.98831812666700"
+   "latitude": "1.35525176294219",
+   "longitude": "103.988939665328"
  },
  {
    "id": 28,
    "name": "1983 Coffee & Toast",
    "tags": "",
    "address": "1, MARITIME SQUARE 01-01, -, 99253 Singapore",
-   "latitude": "1.264260",
-   "longitude": "103.819740"
+   "latitude": "0.0",
+   "longitude": "0.0"
  },
  {
    "id": 29,
    "name": "1983 Coffee&Toast",
    "tags": "",
    "address": "nan, 1 Jurong East Street 21 02-32/33, -, 609606 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.33553382554428",
+   "longitude": "103.743865452312"
  },
  {
    "id": 30,
    "name": "1983 Coffee & Toast",
    "tags": "",
    "address": "1, JOO KOON CIRCLE 02-21, -, 629117 Singapore",
-   "latitude": "1.3267853666666700",
-   "longitude": "103.67846991666700"
+   "latitude": "1.32460664929081",
+   "longitude": "103.678096359775"
  },
  {
    "id": 31,
    "name": "1983 Coffee & Toast",
    "tags": "",
    "address": "1, MARITIME SQUARE 01-09/10, -, 99253 Singapore",
-   "latitude": "1.264260",
-   "longitude": "103.819740"
+   "latitude": "0.0",
+   "longitude": "0.0"
  },
  {
    "id": 32,
    "name": "1983 Coffee & Toast",
    "tags": "",
    "address": "2, SIMEI STREET 3 1, -, 529889 Singapore",
-   "latitude": "1.3408630000000000",
-   "longitude": "103.83039182212100"
+   "latitude": "1.34053138453855",
+   "longitude": "103.949633084403"
  },
  {
    "id": 33,
    "name": "21 On Rajah",
    "tags": "",
    "address": "1, JALAN RAJAH 01-15a, -, 329133 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.32699075133711",
+   "longitude": "103.847403697576"
  },
  {
    "id": 34,
    "name": "4 Fingers Crispy Chicken",
    "tags": "",
    "address": "50, Jurong Gateway Road 01-32, -, 608549 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.33332819303974",
+   "longitude": "103.743359442234"
  },
  {
    "id": 35,
    "name": "4 Fingers Crispy Chicken",
    "tags": "",
    "address": "9, BISHAN PLACE 01-32, -, 150120 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.28630594274136",
+   "longitude": "103.804492637648"
  },
  {
    "id": 36,
    "name": "4 Fingers Crispy Chicken",
    "tags": "",
    "address": "930, Yishun Avenue 2 01-15, -, 819643 Singapore",
-   "latitude": "1.3531954066666700",
-   "longitude": "103.98831812666700"
+   "latitude": "1.35525176294219",
+   "longitude": "103.988939665328"
  },
  {
    "id": 37,
    "name": "4 Fingers Crispy Chicken",
    "tags": "",
    "address": "277, ORCHARD ROAD 01-04/05, -, 524201 Singapore",
-   "latitude": "1.3523302",
-   "longitude": "103.9534923"
+   "latitude": "1.35226231425316",
+   "longitude": "103.953586491358"
  },
  {
    "id": 38,
    "name": "4 Fingers Crispy Chicken",
    "tags": "",
    "address": "6, RAFFLES BOULEVARD 02-183A, -, 599746 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.34364174837769",
+   "longitude": "103.775032268285"
  },
  {
    "id": 39,
    "name": "AJ Delights",
    "tags": "",
    "address": "120, BUKIT MERAH LANE 1 01-82883, ALEXANDRA VILLAGE FOOD CENTER , 650155 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.3480262095627",
+   "longitude": "103.743595035"
  },
  {
    "id": 40,
    "name": "Ajuma Japanese&Korean CuisineR10)@Staff Canteen By Kopitiam",
    "tags": "",
    "address": "60, AIRPORT BOULEVARD 3M-10, CHANGI AIRPORT TERMINAL 2 , 650177 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.3463440745148",
+   "longitude": "103.741742087315"
  },
  {
    "id": 41,
    "name": "Changi Airport Terminal 2",
    "tags": "",
    "address": "nan, TAMPINES STREET 21 01-1155, -, 670257 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.37850873559017",
+   "longitude": "103.773212348159"
  },
  {
    "id": 42,
    "name": "AL AZHAR",
    "tags": "",
    "address": "201D, CHEONG CHIN NAM ROAD - , -, 730167 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.43359370586711",
+   "longitude": "103.775884057946"
  },
  {
    "id": 43,
    "name": "AL AZHAR",
    "tags": "",
    "address": "11/12, Bukit Batok St 11 01-324, -, 673635 Singapore",
-   "latitude": "1.385730",
-   "longitude": "103.761250"
+   "latitude": "1.38650187058094",
+   "longitude": "103.758433939145"
  },
  {
    "id": 44,
    "name": "AL MADINA Famous Prata Corner",
    "tags": "",
    "address": "155, Bukit Batok West Ave 8 01-247, -, 556083 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.35067551435975",
+   "longitude": "103.871861623874"
  },
  {
    "id": 45,
    "name": "AL MADINA Famous Prata Corner",
    "tags": "",
    "address": "177, Bangkit Road Bukit Panjang New 01-61, ZHENGHUA 257 COFFEE HOUSE , 556083 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.35067551435975",
+   "longitude": "103.871861623874"
  },
  {
    "id": 46,
    "name": "AL MADINA Famous Prata Corner",
    "tags": "",
    "address": "257, Town 01-07, -, 671524 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.38529556252963",
+   "longitude": "103.766170532051"
  },
  {
    "id": 47,
    "name": "AL MADINA Famous Prata Corner",
    "tags": "",
    "address": "167, Woodlands St 11 01-01, -, 730131 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.43847983955609",
+   "longitude": "103.778613439344"
  },
  {
    "id": 48,
    "name": "AL MADINA Famous Prata Corner",
    "tags": "",
    "address": "635c, Senja Road 82-49, -, 510444 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.37000224411598",
+   "longitude": "103.95748962666"
  },
  {
    "id": 49,
    "name": "ALL GOOD GOURMET",
    "tags": "",
    "address": "23, SERANGOON CENTRAL 82-49, NEX, 523878 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.35126411286423",
+   "longitude": "103.929363834798"
  },
  {
    "id": 50,
    "name": "ALL GOOD GOURMET",
    "tags": "",
    "address": "23, SERANGOON CENTRAL 02-03/04, NEX, 730573 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.43109807246887",
+   "longitude": "103.798507621177"
  },
  {
    "id": 51,
    "name": "AMETHYST PASTRY & CAKES",
    "tags": "",
    "address": "524a, JELAPANG ROAD 01-206, GREENRIDGE SHOPPING CENTER , 380005 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.31264014497827",
+   "longitude": "103.872491873561"
  },
  {
    "id": 52,
    "name": "Amigo's Food Pte Ltd",
    "tags": "",
    "address": "131, MARSILING RISE 01-102, -, 427585 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.3089072395437",
+   "longitude": "103.902325960597"
  },
  {
    "id": 53,
    "name": "Amigo's Food Pte Ltd",
    "tags": "",
    "address": "444, PASIR RIS DRIVE 6 01-66, -, 380202 Singapore",
-   "latitude": "1.320610",
-   "longitude": "103.886930"
+   "latitude": "0.0",
+   "longitude": "0.0"
  },
  {
    "id": 54,
    "name": "Amigo's Food Pte Ltd",
    "tags": "",
    "address": "878c, TAMPINES AVENUE 8 01-01, -, 427585 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.3089072395437",
+   "longitude": "103.902325960597"
  },
  {
    "id": 55,
@@ -452,16 +452,16 @@
    "name": "Amigo's Food Pte Ltd",
    "tags": "",
    "address": "5, UPPER BOON KENG ROAD 01-01, MULTI STOREY CAR PARK, 819665 Singapore",
-   "latitude": "1.3395912666666700",
-   "longitude": "103.98407606666700"
+   "latitude": "1.33825538095376",
+   "longitude": "103.983580913863"
  },
  {
    "id": 57,
    "name": "ANDES",
    "tags": "",
    "address": "328, Joo Chiat Road 01-2001, JOO CHIAT APARTMENTS , 519599 Singapore",
-   "latitude": "1.3773282153846200",
-   "longitude": "103.95499696153800"
+   "latitude": "1.37595122154029",
+   "longitude": "103.955598940037"
  },
  {
    "id": 58,
@@ -476,335 +476,335 @@
    "name": "ANDES",
    "tags": "",
    "address": "10, Airport Boulevard 02-325, CHANGI AIRPORT TERMINAL 4 , 819665 Singapore",
-   "latitude": "1.3395912666666700",
-   "longitude": "103.98407606666700"
+   "latitude": "1.33825538095376",
+   "longitude": "103.983580913863"
  },
  {
    "id": 60,
    "name": "ANDES",
    "tags": "",
    "address": "750, Chai Chee Road 01-30, Technopark@Chai Chee, 469000 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.32365172481192",
+   "longitude": "103.922102955664"
  },
  {
    "id": 61,
    "name": "A-Po Hokkien Mee (MR1)@The Food Market Century Square",
    "tags": "",
    "address": "2, TAMPINES CENTRAL 5 03-19, CENTURY SQUARE, 529509 Singapore",
-   "latitude": "1.3408630000000000",
-   "longitude": "103.83039182212100"
+   "latitude": "1.35236829566862",
+   "longitude": "103.943812302253"
  },
  {
    "id": 62,
    "name": "A-POH KITCHEN PTE LTD",
    "tags": "",
    "address": "354, CLEMENTI AVENUE 2 01-223, CLEMENTI AVENUE 2 SHOPPING center , 120354 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.31351386405455",
+   "longitude": "103.770861088889"
  },
  {
    "id": 63,
    "name": "ARIFF'S RESTAURANT",
    "tags": "",
    "address": "71, KALLANG BAHRU 01-529B, -, 330071 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.3209929422065",
+   "longitude": "103.870389998344"
  },
  {
    "id": 64,
    "name": "ARIFF'S RESTAURANT",
    "tags": "",
    "address": "278, BUKIT BATOK EAST AVE 3 01-365, - , 650278 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.34785140092909",
+   "longitude": "103.757774174346"
  },
  {
    "id": 65,
    "name": "Amold's Fried Chicken (S)Pte Ltd",
    "tags": "",
    "address": "21, HOUGANG STREET 51 01-49, HOUGANG GREEN SHOPPING MALL, 538719 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.37931783499145",
+   "longitude": "103.88784708944"
  },
  {
    "id": 66,
    "name": "Arnold's Fried Chicken (S)Pte Ltd",
    "tags": "",
    "address": "60, JURONG WEST CENTRAL 3 01-05, The Frontier CC, 648346 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.34051876831483",
+   "longitude": "103.704549717701"
  },
  {
    "id": 67,
    "name": "Arnold's Fried Chicken(S)Pte Ltd",
    "tags": "",
    "address": "51, YISHUN CENTRAL 1 01-04, YISHUN 10 CINEMA CINEPLEX, 768794 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.42991718038493",
+   "longitude": "103.836421473445"
  },
  {
    "id": 68,
    "name": "Amold's Fried Chicken (S)Pte Ltd",
    "tags": "",
    "address": "810, GEYLANG ROAD 02-99/101, CITY PLAZA, 409286 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.3147868971977",
+   "longitude": "103.893472115119"
  },
  {
    "id": 69,
    "name": "Amold's Fried Chicken(S)Pte Ltd",
    "tags": "",
    "address": "215, BEDOK NORTH STREET 1 01-83, - , 460215 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.32607594879214",
+   "longitude": "103.933497473796"
  },
  {
    "id": 70,
    "name": "AROMA KAMPUNG PTE LTD",
    "tags": "",
    "address": "2, JOO CHIAT ROAD 03-1111, JOO CHIAT COMPLEX, 420002 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.31553964446015",
+   "longitude": "103.898764895693"
  },
  {
    "id": 71,
    "name": "ArtBites TRCC",
    "tags": "",
    "address": "5, WOODLANDS AVENUE 9 01-01, REPUBLIC POLYTECHNIC, 738962 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.44338209052932",
+   "longitude": "103.786551792217"
  },
  {
    "id": 72,
    "name": "ASAM TREE CAFE,BAKERY &.      RESTAURANT",
    "tags": "",
    "address": "712, ANG MO KIO AVENUE 6 01-4056, - , 560712 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.3714109677026",
+   "longitude": "103.847084468485"
  },
  {
    "id": 73,
    "name": "Asam Tree Malay Cuisine(S5)@",
    "tags": "",
    "address": "90, Yishun Central 01-12, Khoo Teck Puat Hospital, 768828 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.42386458686306",
+   "longitude": "103.838408103708"
  },
  {
    "id": 74,
    "name": "NTUC Foodfare KTPH",
    "tags": "",
    "address": "100, HOUGANG AVENUE 10 01-03, KANG KAR MALL, 538767 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.37177996112812",
+   "longitude": "103.894165380603"
  },
  {
    "id": 75,
    "name": "ASAM TREE SNACK & NASI LEMAK",
    "tags": "",
    "address": "25, SCOTTS ROAD －, SCOTTSWALK, 228220 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.30700148159343",
+   "longitude": "103.83235806558"
  },
  {
    "id": 76,
    "name": "ASIAN COUNTER@CAROUSEL",
    "tags": "",
    "address": "21, Tampines Ave 1 01-00, Temasek Polytechnic(Blk 23A), 529757 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.34594607020383",
+   "longitude": "103.932631490034"
  },
  {
    "id": 77,
    "name": "ASIAN DELIGHT(S4)@FLAVOURS BY HESED&EMET",
    "tags": "",
    "address": "6, RAFFLES BOULEVARD 4, MARINA SQUARE, 39594 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "0.0",
+   "longitude": "0.0"
  },
  {
    "id": 78,
    "name": "ASIAN DELIGHTS@AQUAMARINE",
    "tags": "",
    "address": "2, STAMFORD ROAD －, FAIRMONT SINGAPORE &, 178882 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.29326862813347",
+   "longitude": "103.8533651777"
  },
  {
    "id": 79,
    "name": "ASIAN FOOD CORNER@AMC",
    "tags": "",
    "address": "1, GEYLANG SERAI 01-210, SWISSOTEL THE STAMFORD, 402001 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.31667885583161",
+   "longitude": "103.898102655979"
  },
  {
    "id": 80,
    "name": "Australia Design Westem Food （S2)@Mr Teh Tarik Geylang Serai",
    "tags": "",
    "address": "1, Choa Chu Kang Grove 03-05, -, 688236 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.37490650898361",
+   "longitude": "103.752233735193"
  },
  {
    "id": 81,
    "name": "Awal Western and Thai Steamboat",
    "tags": "",
    "address": "60, PASIR RIS DRIVE 3 1, ARANDA COUNTRY CLUB, 519497 Singapore",
-   "latitude": "1.3760934",
-   "longitude": "103.953486"
+   "latitude": "1.37609103244793",
+   "longitude": "103.95353288824"
  },
  {
    "id": 82,
    "name": "Ayam Bakar Ojolali",
    "tags": "",
    "address": "304, ORCHARD ROAD 03-39, LUCKY PLAZA, 238863 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.30448579105197",
+   "longitude": "103.833941935117"
  },
  {
    "id": 83,
    "name": "Ayam Bakar Ojolali",
    "tags": "",
    "address": "304, ORCHARD ROAD 03-43, LUCKY PLAZA, 238863 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.30448579105197",
+   "longitude": "103.833941935117"
  },
  {
    "id": 84,
    "name": "AYAM PENYET",
    "tags": "",
    "address": "676, WOODLANDS DRIVE 71 2, KAMPUNG ADMIRALTY HAWKER center , 730676 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.43986217628881",
+   "longitude": "103.800726772886"
  },
  {
    "id": 85,
    "name": "AYAM PENYET",
    "tags": "",
    "address": "768, 110 Pasir Ris Central 01-02, -, 519641 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.37347252064326",
+   "longitude": "103.951571342467"
  },
  {
    "id": 86,
    "name": "AYAM PENYET(S5)@FORK AND",
    "tags": "",
    "address": "204, WOODLANDS AVENUE 6 1, WOODLANDS MART , 730768 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.44581297711659",
+   "longitude": "103.798219100717"
  },
  {
    "id": 87,
    "name": "SPOON WOODLANDS MART",
    "tags": "",
    "address": "17, BEDOK NORTH STREET 1 01-435, - , 460204 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.32635909520616",
+   "longitude": "103.929995919076"
  },
  {
    "id": 88,
    "name": "Ayam Penyet(S6)@Mr Teh Tarik",
    "tags": "",
    "address": "304, Petir Road B2-57/58, -, 678278 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.37843100800213",
+   "longitude": "103.762842789877"
  },
  {
    "id": 89,
    "name": "Eating House",
    "tags": "",
    "address": "2, ORCHARD ROAD 03-36/37, LUCKY PLAZA, 238863 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.30448579105197",
+   "longitude": "103.833941935117"
  },
  {
    "id": 90,
    "name": "AYAM PENYET PRESIDENT",
    "tags": "",
    "address": "1, JURONG EAST CENTRAL 1 01-05, JCUBE, 609731 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.33326351781133",
+   "longitude": "103.740317485186"
  },
  {
    "id": 91,
    "name": "AYAM PENYET PRESIDENT",
    "tags": "",
    "address": "23, Stadium Place 01-23, -, 397628 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.30307515150401",
+   "longitude": "103.873149707591"
  },
  {
    "id": 92,
    "name": "AYAM PENYET PRESIDENT",
    "tags": "",
    "address": "2, Serangoon Central 1 B1-13/14, -, 556083 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.35067551435975",
+   "longitude": "103.871861623874"
  },
  {
    "id": 93,
    "name": "AYAM PENYET PRESIDENT",
    "tags": "",
    "address": "930, TAMPINES CENTRAL 5 B1-20, CENTURY SQUARE , 529509 Singapore",
-   "latitude": "1.3408630000000000",
-   "longitude": "103.83039182212100"
+   "latitude": "1.35236829566862",
+   "longitude": "103.943812302253"
  },
  {
    "id": 94,
    "name": "AYAM PENYET PRESIDENT",
    "tags": "",
    "address": "728, YISHUN AVENUE 2 B1-54, NORTHPOINT , 769098 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.42924414326245",
+   "longitude": "103.836107231373"
  },
  {
    "id": 95,
    "name": "AYAM PENYET PRESIDENT",
    "tags": "",
    "address": "1000, ANG MO KIO AVENUE 6 01-4200, - MARINE COVE , 560728 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.37262841608628",
+   "longitude": "103.845682928938"
  },
  {
    "id": 96,
    "name": "AYAM PENYET PRESIDENT",
    "tags": "",
    "address": "321, EAST COAST PARKWAY 01-02, PARKWAY EAST HOSPITAL , 449876 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.3014332892252",
+   "longitude": "103.912911298667"
  },
  {
    "id": 97,
    "name": "AYAM PENYET UNCLE PENYET",
    "tags": "",
    "address": "276/278, JOO CHIAT PLACE 01-10, -, 427990 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.31506868762293",
+   "longitude": "103.908991427057"
  },
  {
    "id": 98,
    "name": "BABALICIOUS",
    "tags": "",
    "address": "26, CHANGI ROAD －, -, 419756 Singapore",
-   "latitude": "14.4848138",
-   "longitude": "121.0232316"
+   "latitude": "1.31759238641976",
+   "longitude": "103.906262569402"
  },
  {
    "id": 99,
    "name": "Bagus",
    "tags": "",
    "address": "1, SENTOSA GATEWAY B1-133, THE COMMERZE , 98138 Singapore",
-   "latitude": "1.25721033504858",
-   "longitude": "103.82155731204"
+   "latitude": "0.0",
+   "longitude": "0.0"
  },
  {
    "id": 100,
    "name": "Bagus",
    "tags": "",
    "address": "41, IRVING PLACE 02-04, -, 369546 Singapore",
-   "latitude": "1.357107",
-   "longitude": "103.8194992"
+   "latitude": "1.33623678708616",
+   "longitude": "103.88643382511"
  }
 ]

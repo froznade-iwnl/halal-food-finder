@@ -20,7 +20,7 @@ struct ContentView: View {
                     Label("Home", systemImage: "fork.knife.circle")
                 }
             
-            NearestRestaurantView()
+            NearestRestaurantView(data: restaurants.restaurants)
                 .tabItem {
                     Label("Near me", systemImage: "map.circle")
                 }
