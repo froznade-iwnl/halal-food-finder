@@ -9,7 +9,8 @@ import SwiftUI
 
 struct HomeView: View {
     @Binding var tabSelection: Int
-    @State var data: [Restaurant]
+    var data: [Restaurant]
+    @StateObject var mapManager = ContentViewModel()
     
     var body: some View {
         NavigationStack {
@@ -35,7 +36,7 @@ struct HomeView: View {
                             HStack {
                                 VStack(alignment: .leading){
                                     
-                                    Text("Good Morning 👋🏻")
+                                    Text("\(greetingLogic()) 👋🏻")
                                         .foregroundColor(.white)
                                         .font(.title)
                                         .bold()
@@ -149,13 +150,35 @@ struct HomeView: View {
                         }
                         .padding(.horizontal, 20)
                         
-                    
-                        
                     }
                 }
             }
         }
     }
+    
+    func greetingLogic() -> String {
+      let hour = Calendar.current.component(.hour, from: Date())
+      
+      let NEW_DAY = 0
+      let NOON = 12
+      let SUNSET = 18
+      let MIDNIGHT = 24
+      
+      var greetingText = "Hello" // Default greeting text
+      switch hour {
+      case NEW_DAY..<NOON:
+          greetingText = "Good Morning"
+      case NOON..<SUNSET:
+          greetingText = "Good Afternoon"
+      case SUNSET..<MIDNIGHT:
+          greetingText = "Good Evening"
+      default:
+          _ = "Hello"
+      }
+      
+      return greetingText
+    }
+    
 }
 
 //struct HomeView_Previews: PreviewProvider {

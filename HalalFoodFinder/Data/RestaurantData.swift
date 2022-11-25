@@ -23,9 +23,13 @@ struct Restaurant: Codable, Identifiable{
         return CLLocation(latitude: Double(latitude)!, longitude: Double(longitude)!)
     }
     
+    var dist: Double?
+    
     func distance(to location: CLLocation) -> CLLocationDistance {
         return location.distance(from: self.location)
     }
+    
+    
     
 }
 

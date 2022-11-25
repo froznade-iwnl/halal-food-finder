@@ -12,16 +12,14 @@ final class ContentViewModel: NSObject, ObservableObject, CLLocationManagerDeleg
     @Published var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 1.357107, longitude: 103.8194992), span: MKCoordinateSpan(latitudeDelta: 0.35, longitudeDelta: 0.35))
     
     var locationManager: CLLocationManager?
-    @Published var myLocation: CLLocation?
+    @Published var myLocation: CLLocation? = CLLocation(latitude: 1.357107, longitude: 103.8194992)
     
     func checkIfLocationsServiceIsEnabled(){
+        checkLocationAuthorization()
         if CLLocationManager.locationServicesEnabled() {
             locationManager = CLLocationManager()
             locationManager!.delegate = self
-            var lat = locationManager!.location!.coordinate.latitude
-            var lon = locationManager!.location!.coordinate.longitude
-            myLocation = CLLocation(latitude: lat, longitude: lon)
-        }else{
+        } else {
             print("Show alert to tell that the setting is still off and go turn it on")
         }
     }
@@ -39,6 +37,9 @@ final class ContentViewModel: NSObject, ObservableObject, CLLocationManagerDeleg
             print("You have denied this app location permission. Please go to the settings to change it")
         case .authorizedAlways, .authorizedWhenInUse:
             region = MKCoordinateRegion(center: locationManager.location!.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.0025, longitudeDelta: 0.0025))
+            var lat = locationManager.location!.coordinate.latitude
+            var lon = locationManager.location!.coordinate.longitude
+            myLocation = CLLocation(latitude: lat, longitude: lon)
         @unknown default:
             break
         }

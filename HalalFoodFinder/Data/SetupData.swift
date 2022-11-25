@@ -24,6 +24,6 @@ public let cuisines = [
     "chinese",
     "fusion",
     "dessert",
-    "heavy Meal",
+    "heavy meal",
     "japanese",
 ]

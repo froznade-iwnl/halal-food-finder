@@ -21,6 +21,7 @@ struct NearestRestaurantView: View {
           Map(coordinateRegion: $mapManager.region, showsUserLocation: true, annotationItems: mapData.location) { location in
                 MapMarker(coordinate: location.coordinate, tint: Color.bgColor)
           }
+          .ignoresSafeArea(.all)
          
       }
       .onAppear {

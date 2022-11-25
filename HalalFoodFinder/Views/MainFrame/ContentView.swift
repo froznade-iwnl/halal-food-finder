@@ -38,10 +38,9 @@ struct ContentView: View {
         }
         .accentColor(.bgColor)
         .onAppear{
-            mapManager.checkIfLocationsServiceIsEnabled()
-            restaurants.sortByDistance(location: mapManager.myLocation!)
+                mapManager.checkIfLocationsServiceIsEnabled()
+                restaurants.sortByDistance(location: mapManager.myLocation!)
         }
-        
         
     }
     

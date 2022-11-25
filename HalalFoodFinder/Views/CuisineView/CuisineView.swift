@@ -38,7 +38,7 @@ struct CuisineView: View {
             }else{
                 
                 ScrollView {
-                    ForEach(datas) { data in
+                    ForEach((datas.count >= 50 ? Array(datas.prefix(upTo: 50)): datas)) { data in
                         
                         NavigationLink {
                             RestaurantDetailsView(data: data)
@@ -59,7 +59,7 @@ struct CuisineView: View {
             })
         }
         .padding(20)
-        .navigationTitle(tag)
+        .navigationTitle(tag.capitalized)
         .navigationBarTitleDisplayMode(.inline)
     }
 }

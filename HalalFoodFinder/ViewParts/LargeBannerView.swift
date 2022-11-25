@@ -32,7 +32,7 @@ struct LargeBannerView: View {
             
             HStack(alignment: .bottom) {
                 Text(name)
-                    .font(.body)
+                    .font(.title)
                     .multilineTextAlignment(.leading)
                     .bold()
                 
@@ -58,6 +58,10 @@ struct LargeBannerView: View {
                 .foregroundColor(.white)
             RoundedRectangle(cornerRadius: 12)
                 .stroke(Color.gray, lineWidth: 1)
+            Image("foodDoodles")
+                .resizable()
+                .scaledToFill()
+                .opacity(0.05)
         }
         
     }

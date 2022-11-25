@@ -14,15 +14,15 @@ struct CuisineSelectView: View {
     
     
     var body: some View {
-        ZStack{
+        VStack{
             
             Image(name.lowercased())
                 .resizable()
-                .scaledToFill()
+                .scaledToFit()
             
             Text(name.capitalized)
                 .font(.headline)
-                .foregroundColor(.white)
+                .foregroundColor(.black)
                         
         }
         .padding()
@@ -30,7 +30,7 @@ struct CuisineSelectView: View {
         .background {
             ZStack {
                 RoundedRectangle(cornerRadius: 12)
-                    .fill(Color.bgColor)
+                    .fill(Color.white)
                 RoundedRectangle(cornerRadius: 12)
                     .stroke(Color.gray, lineWidth: 1)
             }

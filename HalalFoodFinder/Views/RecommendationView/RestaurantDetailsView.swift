@@ -21,9 +21,10 @@ struct RestaurantDetailsView: View {
                 
                 ZStack {
                     Rectangle()
-                        .frame(height: 366)
+                        .frame(height: 200)
                         .foregroundColor(.bgColor)
                         .ignoresSafeArea(.all)
+                    
                     
                     VStack{
                         Spacer()
@@ -45,15 +46,10 @@ struct RestaurantDetailsView: View {
                 }
                 
                 VStack(alignment: .leading) {
-                    Text("About")
-                        .font(.headline)
-                    
-                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam efficitur leo, vel ornare justo porttitor luctus. Integer non dapibus nibh, ac elementum tortor. In eget elit non magna tempor.")
-                        .padding(.top, 2)
                     
                     Text("How to get there?")
                         .font(.headline)
-                        .padding(.top, 20)
+                        
                     
                     MapView(data: data)
                         .frame(height: 200)

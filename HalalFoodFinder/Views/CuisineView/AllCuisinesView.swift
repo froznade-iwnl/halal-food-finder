@@ -21,7 +21,13 @@ struct AllCuisinesView: View {
                         }label: {
                             VStack {
                                 HStack {
-                                    Text(cuisine)
+                                    
+                                    Image(cuisine)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 26, height: 26)
+                                    
+                                    Text(cuisine.capitalized)
                                         .font(.headline)
                                         .foregroundColor(.black)
                                     
