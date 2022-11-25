@@ -10,7 +10,7 @@ import MapKit
 
 struct MapView: View {
     
-    @StateObject var mapData = MapData()
+    @StateObject var mapData = MapDataManager()
     var data: Restaurant
     
     var body: some View {

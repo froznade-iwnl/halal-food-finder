@@ -34,7 +34,7 @@ struct LargeBannerView: View {
                 Text(name)
                     .font(.body)
                     .multilineTextAlignment(.leading)
-                .bold()
+                    .bold()
                 
             }
             
@@ -43,6 +43,7 @@ struct LargeBannerView: View {
                 Image(systemName: "location")
                 
                 Text(address.capitalized)
+                    .multilineTextAlignment(.leading)
                 
             }
             .padding(.top, 2)

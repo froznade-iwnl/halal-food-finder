@@ -16,7 +16,8 @@
 		DB6BDED12916119A00B89418 /* CuisineSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BDED02916119A00B89418 /* CuisineSelectView.swift */; };
 		DB6BDED329161CE900B89418 /* NearMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6BDED229161CE900B89418 /* NearMeView.swift */; };
 		DBAEF8E32925E1AA000243B7 /* NearestRestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAEF8E22925E1AA000243B7 /* NearestRestaurantView.swift */; };
-		DBB2AF0B292DA78100DA78C4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DBB2AF0A292DA78100DA78C4 /* data.json */; };
+		DBB2AF0F292DE42000DA78C4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DBB2AF0E292DE42000DA78C4 /* data.json */; };
+		DBB2AF11292E3B9E00DA78C4 /* LocationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2AF10292E3B9E00DA78C4 /* LocationDataManager.swift */; };
 		DBDBAF4A291F328D00B44C88 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDBAF49291F328D00B44C88 /* HomeView.swift */; };
 		DBDBAF4C291F3AF800B44C88 /* RestaurantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDBAF4B291F3AF800B44C88 /* RestaurantData.swift */; };
 		DBDBAF50291F46A200B44C88 /* RestaurantFilteredMemberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDBAF4F291F46A200B44C88 /* RestaurantFilteredMemberView.swift */; };
@@ -39,7 +40,8 @@
 		DB6BDED02916119A00B89418 /* CuisineSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineSelectView.swift; sourceTree = "<group>"; };
 		DB6BDED229161CE900B89418 /* NearMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeView.swift; sourceTree = "<group>"; };
 		DBAEF8E22925E1AA000243B7 /* NearestRestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestRestaurantView.swift; sourceTree = "<group>"; };
-		DBB2AF0A292DA78100DA78C4 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DBB2AF0E292DE42000DA78C4 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DBB2AF10292E3B9E00DA78C4 /* LocationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataManager.swift; sourceTree = "<group>"; };
 		DBDBAF49291F328D00B44C88 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DBDBAF4B291F3AF800B44C88 /* RestaurantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantData.swift; sourceTree = "<group>"; };
 		DBDBAF4F291F46A200B44C88 /* RestaurantFilteredMemberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFilteredMemberView.swift; sourceTree = "<group>"; };
@@ -83,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				DBE14C002921EC0800B8D722 /* Info.plist */,
-				DBB2AF0A292DA78100DA78C4 /* data.json */,
+				DBB2AF0E292DE42000DA78C4 /* data.json */,
 				DB6BDECA291604AD00B89418 /* Data */,
 				DB6BDEC9291604A300B89418 /* ViewParts */,
 				DB6BDEC82916048800B89418 /* Views */,
@@ -130,6 +132,7 @@
 				DB6BDECB291608D900B89418 /* SetupData.swift */,
 				DBDBAF4B291F3AF800B44C88 /* RestaurantData.swift */,
 				DBE14C012921F6CD00B8D722 /* MapData.swift */,
+				DBB2AF10292E3B9E00DA78C4 /* LocationDataManager.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -147,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				DBE14BFC2921E0C100B8D722 /* RestaurantDetailsView.swift */,
-				DBE14C03292204FF00B8D722 /* AllRestaurantsView.swift */,
 			);
 			path = RecommendationView;
 			sourceTree = "<group>";
@@ -158,6 +160,7 @@
 				DB0BBDE02915F2FB00E4683C /* ContentView.swift */,
 				DBDBAF49291F328D00B44C88 /* HomeView.swift */,
 				DBAEF8E22925E1AA000243B7 /* NearestRestaurantView.swift */,
+				DBE14C03292204FF00B8D722 /* AllRestaurantsView.swift */,
 			);
 			path = MainFrame;
 			sourceTree = "<group>";
@@ -222,7 +225,7 @@
 			files = (
 				DB0BBDE62915F2FD00E4683C /* Preview Assets.xcassets in Resources */,
 				DB0BBDE32915F2FD00E4683C /* Assets.xcassets in Resources */,
-				DBB2AF0B292DA78100DA78C4 /* data.json in Resources */,
+				DBB2AF0F292DE42000DA78C4 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +245,7 @@
 				DB0BBDE12915F2FB00E4683C /* ContentView.swift in Sources */,
 				DBDBAF50291F46A200B44C88 /* RestaurantFilteredMemberView.swift in Sources */,
 				DBE14C06292209FA00B8D722 /* AllCuisinesView.swift in Sources */,
+				DBB2AF11292E3B9E00DA78C4 /* LocationDataManager.swift in Sources */,
 				DB6BDED329161CE900B89418 /* NearMeView.swift in Sources */,
 				DB6BDED12916119A00B89418 /* CuisineSelectView.swift in Sources */,
 				DBDBAF52291F485500B44C88 /* CuisineView.swift in Sources */,
@@ -380,6 +384,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HalalFoodFinder/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is needed to find the nearest restaurant from your location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is needed to find the nearest restaurant from your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -409,6 +415,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HalalFoodFinder/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is needed to find the nearest restaurant from your location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is needed to find the nearest restaurant from your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

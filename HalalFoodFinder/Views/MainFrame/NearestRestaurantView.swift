@@ -10,23 +10,22 @@ import MapKit
 
 struct NearestRestaurantView: View {
     @State private var text = ""
-    @State var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 1.357107, longitude: 103.8194992), span: MKCoordinateSpan(latitudeDelta: 0.35, longitudeDelta: 0.35))
+    @StateObject var mapManager = ContentViewModel()
     @State var data: [Restaurant]
-    @StateObject var mapData = MapData()
+    @StateObject var mapData = MapDataManager()
+    @State var isClicked = false
        
     var body: some View {
       VStack {
-         TextField("Enter an address", text: $text)
-            .textFieldStyle(.roundedBorder)
-            .padding(.horizontal)
           
-          Map(coordinateRegion: $mapData.region, annotationItems: mapData.location) { location in
-              MapMarker(coordinate: location.coordinate, tint: Color.bgColor)
+          Map(coordinateRegion: $mapManager.region, showsUserLocation: true, annotationItems: mapData.location) { location in
+                MapMarker(coordinate: location.coordinate, tint: Color.bgColor)
           }
          
       }
       .onAppear {
-          mapData.getAllData(from: data, address: text)
+          mapManager.checkIfLocationsServiceIsEnabled()
+          mapData.getAllData(from: Array(data.prefix(upTo: 20)), address: text)
       }
     }
 }

@@ -18,7 +18,7 @@ struct AllRestaurantsView: View {
             VStack {
                 
                 ScrollView {
-                    ForEach(datas) { data in
+                    ForEach(Array(datas.prefix(upTo: 70))) { data in
                         VStack {
                             
                             NavigationLink {

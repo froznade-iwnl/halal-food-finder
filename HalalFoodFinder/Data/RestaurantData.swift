@@ -19,6 +19,14 @@ struct Restaurant: Codable, Identifiable{
     var latitude: String
     var longitude: String
     
+    var location: CLLocation {
+        return CLLocation(latitude: Double(latitude)!, longitude: Double(longitude)!)
+    }
+    
+    func distance(to location: CLLocation) -> CLLocationDistance {
+        return location.distance(from: self.location)
+    }
+    
 }
 
 class restaurantDataGrabber: ObservableObject {
@@ -39,9 +47,13 @@ class restaurantDataGrabber: ObservableObject {
             let data = try? Data(contentsOf: url)
             self.restaurants = try! decoder.decode([Restaurant].self, from: data!)
             self.restaurants.shuffle()
-            print(self.restaurants)
         }catch{
             print(error)
         }
     }
+    
+    func sortByDistance(location: CLLocation) {
+        self.restaurants.sort(by: { $0.distance(to: location) < $1.distance(to: location) })
+    }
 }
+

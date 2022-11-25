@@ -12,30 +12,36 @@ struct CuisineSelectView: View {
     var name: String
     var color: Color
     
+    
     var body: some View {
-        VStack{
+        ZStack{
+            
+            Image(name.lowercased())
+                .resizable()
+                .scaledToFill()
             
             Text(name.capitalized)
                 .font(.headline)
-                .foregroundColor(color)
-            
+                .foregroundColor(.white)
+                        
         }
         .padding()
         .frame(width: 116, height: 116)
         .background {
             ZStack {
                 RoundedRectangle(cornerRadius: 12)
-                    .fill(.white)
+                    .fill(Color.bgColor)
                 RoundedRectangle(cornerRadius: 12)
                     .stroke(Color.gray, lineWidth: 1)
             }
                
         }
     }
+    
 }
 
 struct CuisineSelectView_Previews: PreviewProvider {
     static var previews: some View {
-        CuisineSelectView(name: "test", color: .black)
+        CuisineSelectView(name: "Japanese", color: .black)
     }
 }

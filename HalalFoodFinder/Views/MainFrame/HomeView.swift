@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
-    
+    @Binding var tabSelection: Int
     @State var data: [Restaurant]
     
     var body: some View {
@@ -105,9 +105,9 @@ struct HomeView: View {
                                 
                                 Spacer()
                                 
-                                NavigationLink {
-                                    AllRestaurantsView(datas: data)
-                                } label: {
+                                Button(action: {
+                                    tabSelection = 2
+                                }, label: {
                                     Text("See All")
                                         .padding(.horizontal)
                                         .foregroundColor(.bgColor)
@@ -115,7 +115,7 @@ struct HomeView: View {
                                             RoundedRectangle(cornerRadius: 12)
                                                 .stroke(Color.bgColor, lineWidth: 1)
                                         }
-                                }
+                                })
                             }
                             .padding(.top)
                             
@@ -158,8 +158,8 @@ struct HomeView: View {
     }
 }
 
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView(data: [Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500")])
-    }
-}
+//struct HomeView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        HomeView(tabSelection: 1, data: [Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500")])
+//    }
+//}

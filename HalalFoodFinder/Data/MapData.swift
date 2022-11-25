@@ -27,7 +27,7 @@ struct Location: Identifiable {
     let coordinate: CLLocationCoordinate2D
 }
 
-class MapData: ObservableObject {
+class MapDataManager: ObservableObject {
     
     @Published var location: [Location]
     @Published var region: MKCoordinateRegion
@@ -43,7 +43,23 @@ class MapData: ObservableObject {
         self.location.append(Location(coordinate: location))
         self.region = MKCoordinateRegion(center: location, span: MKCoordinateSpan(latitudeDelta: 0.0025, longitudeDelta: 0.0025))
         
-        print(location)
+    }
+    
+    func getNewAddressMap(from address: String, data: [Restaurant]){
+        var use = data
+        self.location.removeAll()
+        getLocation(from: address) { location in
+            if let location = location {
+                self.region = MKCoordinateRegion(center: location, span: MKCoordinateSpan(latitudeDelta: 0.0025, longitudeDelta: 0.0025))
+                use.sort(by: { $0.distance(to: CLLocation(latitude: location.latitude, longitude: location.longitude)) < $1.distance(to: CLLocation(latitude: location.latitude, longitude: location.longitude)) })
+                self.location.append(Location(coordinate: location))
+            }
+        }
+        for restaurant in Array(use.prefix(upTo: 20)) {
+            let location = CLLocationCoordinate2D(latitude: Double(restaurant.latitude)!, longitude: Double(restaurant.longitude)!)
+            self.location.append(Location(coordinate: location))
+            print(restaurant)
+        }
     }
     
     func getAllData(from restaurants: [Restaurant], address: String) {

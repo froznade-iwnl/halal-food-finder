@@ -19,11 +19,11 @@ extension Float {
 }
 
 public let cuisines = [
-    "Western",
-    "Thai",
-    "Chinese",
-    "Fusion",
-    "Dessert",
-    "Heavy Meal",
-    "Indian"
+    "western",
+    "thai",
+    "chinese",
+    "fusion",
+    "dessert",
+    "heavy Meal",
+    "japanese",
 ]
