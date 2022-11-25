@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct HomeView: View {
     @Binding var tabSelection: Int
-    var data: [Restaurant]
+    @Binding var data: [Restaurant]
     @StateObject var mapManager = ContentViewModel()
+    var myLocation: CLLocation
     
     var body: some View {
         NavigationStack {
@@ -152,6 +154,10 @@ struct HomeView: View {
                         
                     }
                 }
+            }
+            .onAppear {
+                self.data.sort(by: { $0.distance(to: myLocation) < $1.distance(to: myLocation) })
+                
             }
         }
     }

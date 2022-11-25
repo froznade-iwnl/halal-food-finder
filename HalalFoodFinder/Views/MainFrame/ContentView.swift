@@ -17,19 +17,19 @@ struct ContentView: View {
     var body: some View {
         
         TabView(selection: $tabSelection) {
-            HomeView(tabSelection: $tabSelection, data: restaurants.restaurants)
+            HomeView(tabSelection: $tabSelection, data: $restaurants.restaurants, myLocation: mapManager.myLocation!)
                 .tabItem {
                     Label("Home", systemImage: "fork.knife.circle")
                 }
                 .tag(1)
             
-            AllRestaurantsView(datas: restaurants.restaurants)
+            AllRestaurantsView(datas: $restaurants.restaurants, myLocation: mapManager.myLocation!)
                 .tabItem {
                     Label("Restaurants", systemImage: "magnifyingglass.circle")
                 }
                 .tag(2)
             
-            NearestRestaurantView(data: restaurants.restaurants)
+            NearestRestaurantView(data: $restaurants.restaurants, myLocation: mapManager.myLocation!)
                 .tabItem {
                     Label("Near me", systemImage: "map.circle")
                 }
@@ -39,7 +39,6 @@ struct ContentView: View {
         .accentColor(.bgColor)
         .onAppear{
                 mapManager.checkIfLocationsServiceIsEnabled()
-                restaurants.sortByDistance(location: mapManager.myLocation!)
         }
         
     }

@@ -62,19 +62,13 @@ class MapDataManager: ObservableObject {
         }
     }
     
-    func getAllData(from restaurants: [Restaurant], address: String) {
+    func getAllData(from restaurants: [Restaurant]) {
         self.location.removeAll()
         for restaurant in restaurants {
             let location = CLLocationCoordinate2D(latitude: Double(restaurant.latitude)!, longitude: Double(restaurant.longitude)!)
             self.location.append(Location(coordinate: location))
         }
-        if address == "" {
-            self.region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 1.357107, longitude: 103.8194992), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
-        }else{
-            getLocation(from: address) { location in
-                self.region = MKCoordinateRegion(center: location ?? CLLocationCoordinate2D(latitude: 1.357107, longitude: 103.8194992), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
-            }
-        }
+        
     }
     
 }

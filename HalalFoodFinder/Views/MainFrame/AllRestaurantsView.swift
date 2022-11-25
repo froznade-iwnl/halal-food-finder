@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct AllRestaurantsView: View {
-    @State var datas: [Restaurant]
+    @Binding var datas: [Restaurant]
     @State var searchedData: [Restaurant] = []
     @State private var key = ""
+    var myLocation: CLLocation
     
     
     var body: some View {
@@ -51,11 +53,14 @@ struct AllRestaurantsView: View {
             }
             
         }
+        .onAppear{
+            self.datas.sort(by: { $0.distance(to: myLocation) < $1.distance(to: myLocation) })
+        }
     }
 }
 
-struct AllRestaurantsView_Previews: PreviewProvider {
-    static var previews: some View {
-        AllRestaurantsView(datas: [Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500")])
-    }
-}
+//struct AllRestaurantsView_Previews: PreviewProvider {
+//    static var previews: some View {
+////        AllRestaurantsView(datas: [Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500")])
+//    }
+//}
