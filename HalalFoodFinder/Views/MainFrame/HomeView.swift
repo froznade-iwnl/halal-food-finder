@@ -43,6 +43,7 @@ struct HomeView: View {
                                         .font(.title)
                                         .bold()
                                         .padding(.top, 20)
+                                        .padding(.vertical, 20)
                                 }
                                 
                                 Spacer()

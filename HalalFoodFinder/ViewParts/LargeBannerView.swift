@@ -60,7 +60,9 @@ struct LargeBannerView: View {
                 .stroke(Color.gray, lineWidth: 1)
             Image("foodDoodles")
                 .resizable()
-                .scaledToFill()
+                .aspectRatio(contentMode: .fill)
+                .frame(height: 200)
+                .clipped()
                 .opacity(0.05)
         }
         
