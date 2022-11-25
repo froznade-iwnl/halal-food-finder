@@ -42,7 +42,15 @@ struct NearMeView: View {
         .frame(width: 180, height: 300)
         .background{
             RoundedRectangle(cornerRadius: 12)
+                .foregroundColor(.white)
+            RoundedRectangle(cornerRadius: 12)
                 .stroke(Color.gray, lineWidth: 1)
+            Image("foodDoodles")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 180, height: 300)
+                .clipped()
+                .opacity(0.05)
         }
         
         
