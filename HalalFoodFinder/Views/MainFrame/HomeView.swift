@@ -64,6 +64,7 @@ struct HomeView: View {
                                 Text("Cuisines 🍱")
                                     .font(.title2)
                                     .bold()
+                                    .foregroundColor(.black)
                                 
                                 Spacer()
                                 
@@ -105,6 +106,7 @@ struct HomeView: View {
                                 Text("Recommendations ✨")
                                     .font(.title2)
                                     .bold()
+                                    .foregroundColor(.black)
                                 
                                 Spacer()
                                 
