@@ -9,7 +9,7 @@ import SwiftUI
 import CoreLocation
 
 struct RestaurantDetailsView: View {
-    
+    @Environment(\.openURL) var openURL
     @State var data: Restaurant
     
     
@@ -47,8 +47,37 @@ struct RestaurantDetailsView: View {
                 
                 VStack(alignment: .leading) {
                     
+                    Text("Take me there!")
+                        .font(.headline)
+                        .foregroundColor(.black)
+                    
+                    HStack {
+                        Text(data.address)
+                            .padding(.top, 5)
+                        
+                        Spacer()
+                        
+                        Button {
+                            openURL(URL(string: "https://maps.google.com/?q=\(data.latitude),\(data.longitude)")!)
+                        }label:{
+                            
+                            Image(systemName: "location.circle.fill")
+                                .font(.title3)
+                                .foregroundColor(.bgColor)
+                                .padding(5)
+                                .background{
+                                    RoundedRectangle(cornerRadius: 12)
+                                        .stroke(Color.bgColor, lineWidth: 1)
+                                }
+                        }
+                    }
+                    
+                    Divider()
+                        .padding(.vertical, 20)
+                    
                     Text("How to get there?")
                         .font(.headline)
+                        .foregroundColor(.black)
                         
                     
                     MapView(data: data)
