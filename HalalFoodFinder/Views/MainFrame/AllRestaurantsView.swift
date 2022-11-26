@@ -26,10 +26,10 @@ struct AllRestaurantsView: View {
                             NavigationLink {
                                 RestaurantDetailsView(data: data)
                             } label: {
-                                RestaurantFilteredMemberView(name: data.name, address: data.address, data: data)
+                                RestaurantFilteredMemberView(name: data.name, address: data.address, data: data, location: myLocation)
                             }
                             Divider()
-                                .padding(.top, 2)
+                                .padding(.vertical, 20)
                         }
                     }
                 }
@@ -42,7 +42,7 @@ struct AllRestaurantsView: View {
                     NavigationLink {
                         RestaurantDetailsView(data: data)
                     }label:{
-                        RestaurantFilteredMemberView(name: data.name, address: data.address, data: data)
+                        RestaurantFilteredMemberView(name: data.name, address: data.address, data: data, location: myLocation   )
                     }
                 }
             }

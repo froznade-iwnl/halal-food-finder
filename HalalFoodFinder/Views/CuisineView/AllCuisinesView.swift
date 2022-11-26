@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct AllCuisinesView: View {
     
     var data: [Restaurant]
+    var myLocation: CLLocation
     
     var body: some View {
             ScrollView {
@@ -17,7 +19,7 @@ struct AllCuisinesView: View {
                     ForEach(cuisines, id: \.self ) { cuisine in
                         
                         NavigationLink{
-                            CuisineView(datas: data, tag: cuisine)
+                            CuisineView(datas: data, tag: cuisine, myLocation: myLocation)
                         }label: {
                             VStack {
                                 HStack {
@@ -55,6 +57,6 @@ struct AllCuisinesView: View {
 struct AllCuisinesView_Previews: PreviewProvider {
     
     static var previews: some View {
-        AllCuisinesView(data: [Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500")])
+        AllCuisinesView(data: [Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500")], myLocation: CLLocation(latitude: 0, longitude: 0))
     }
 }

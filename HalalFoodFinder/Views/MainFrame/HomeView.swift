@@ -70,7 +70,7 @@ struct HomeView: View {
                                 Spacer()
                                 
                                 NavigationLink {
-                                    AllCuisinesView(data: data)
+                                    AllCuisinesView(data: data, myLocation: myLocation)
                                 } label: {
                                     Text("More")
                                         .padding(.horizontal)
@@ -90,7 +90,7 @@ struct HomeView: View {
                                     ForEach(cuisines.prefix(upTo: 5), id: \.self){ cuisine in
                                         
                                         NavigationLink {
-                                            CuisineView(datas: data, tag: cuisine)
+                                            CuisineView(datas: data, tag: cuisine, myLocation: myLocation)
                                         } label: {
                                             CuisineSelectView(name: cuisine, color: .black)
                                         }
@@ -160,6 +160,7 @@ struct HomeView: View {
             }
             .onAppear {
                 self.data.sort(by: { $0.distance(to: myLocation) < $1.distance(to: myLocation) })
+            
                 
             }
         }

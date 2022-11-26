@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct CuisineView: View {
     
     @State var datas: [Restaurant]
     var tag: String
+    var myLocation: CLLocation
     
     var body: some View {
         VStack {
@@ -44,9 +46,10 @@ struct CuisineView: View {
                             RestaurantDetailsView(data: data)
                         } label: {
                             VStack {
-                                RestaurantFilteredMemberView(name: data.name, address: data.address, data: data)
+                                RestaurantFilteredMemberView(name: data.name, address: data.address, data: data, location: myLocation)
                                 
                                 Divider()
+                                    .padding(.vertical, 20)
                             }
                         }
                     }
@@ -66,7 +69,7 @@ struct CuisineView: View {
 
 struct CuisineView_Previews: PreviewProvider {
     static var previews: some View {
-        CuisineView(datas: [Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500"), Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500"), Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500")], tag: "western")
-        CuisineView(datas: [], tag: "test")
+        CuisineView(datas: [Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500"), Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500"), Restaurant(id: 0, name: "testing", tags: "western", address: "65, AIRPORT BOULEVARD B2-02, CHANGI AIRPORT TERMINAL 3, 819663 Singapore", latitude: "1.3559270153846200", longitude: "103.98648331538500")], tag: "western", myLocation: CLLocation(latitude: 0, longitude: 0))
+        CuisineView(datas: [], tag: "test", myLocation: CLLocation(latitude: 0, longitude: 0))
     }
 }
