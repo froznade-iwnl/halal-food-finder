@@ -25,6 +25,15 @@ struct RestaurantDetailsView: View {
                         .foregroundColor(.bgColor)
                         .ignoresSafeArea(.all)
                     
+                    Image("foodDoodles")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(height: 200)
+                        .clipped()
+                        .opacity(0.05)
+                        
+                    
+                    
                     
                     VStack{
                         Spacer()
