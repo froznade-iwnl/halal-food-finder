@@ -30,7 +30,7 @@ struct RestaurantDetailsView: View {
                         .aspectRatio(contentMode: .fill)
                         .frame(height: 200)
                         .clipped()
-                        .opacity(0.05)
+                        .opacity(0.2)
                         
                     
                     
