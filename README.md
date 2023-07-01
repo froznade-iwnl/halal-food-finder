@@ -1,6 +1,7 @@
 # HalalSG -- halal food finder in Singapore 🍽️
 
-Available in the [Appstore](https://apps.apple.com/us/app/halalsg/id6444731439)
+Available in the [Appstore](https://apps.apple.com/us/app/halalsg/id6444731439) 
+View in light mode for the best experience. \(A dark mode bug was spotted but the update has yet to be passed.)
 
 Alternatively, here are some snapshots of the application:
 
